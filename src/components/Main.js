@@ -41,6 +41,7 @@ class Main extends React.Component {
           <ul className="icons">
             <li><a href="https://twitter.com/therealAniRavi" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
             <li><a href="https://github.com/aniravi24" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="https://www.linkedin.com/in/aniravichandran" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
           </ul>
           {close}
         </article>
