@@ -17,7 +17,7 @@ class Main extends React.Component {
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
           <p>I make things. Not this website though. This was made with an awesome <a href="https://github.com/codebushi/gatsby-starter-dimension-codebushi">template</a> that works with GatsbyJS and deployed to GitHub pages. Check out my work in the work tab.</p>
-          <p>Fun fact: Background image was made in GIMP (blending two existing images).</p>
+          <p>Fun fact: The background image was made in GIMP (blending two existing images).</p>
           {close}
         </article>
 
