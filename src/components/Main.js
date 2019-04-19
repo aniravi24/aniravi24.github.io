@@ -16,7 +16,7 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>I make things sometimes. Not this website though. This was made with an awesome <a href="https://github.com/codebushi/gatsby-starter-dimension-codebushi">template</a> that works with GatsbyJS and deployed to GitHub pages. Go look at my actual <a href="#work">work</a>.</p>
+          <p>I make things. Not this website though. This was made with an awesome <a href="https://github.com/codebushi/gatsby-starter-dimension-codebushi">template</a> that works with GatsbyJS and deployed to GitHub pages. Go look at my actual <a href="#work">work</a>.</p>
           {close}
         </article>
 
@@ -24,7 +24,7 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
           <p>Link coming soon. I'm currently working on Pepper, a digital receptionist that blocks spam and robocalls before they get to you.</p>
-          <p>I've made some other stuff for fun too. Find that on my <a href="https://github.com/aniravi24">Github</a>.</p>
+          <p>I've made some other stuff for fun too. Find that on my <a href="https://github.com/aniravi24">GitHub</a>.</p>
           {close}
         </article>
 
