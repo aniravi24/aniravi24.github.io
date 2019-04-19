@@ -26,6 +26,7 @@ class Main extends React.Component {
           <span className="image main"><img src={pic02} alt="" /></span>
           <p>Link coming soon. I'm currently working on Pepper, a digital receptionist that blocks spam and robocalls before they get to you.</p>
           <p>I've made some other stuff for fun too. Find that on my <a href="https://github.com/aniravi24">GitHub</a>.</p>
+          <p>Find the work I've done on my <a href="https://www.linkedin.com/in/aniravichandran">LinkedIn</a>.</p>
           {close}
         </article>
 
@@ -39,8 +40,8 @@ class Main extends React.Component {
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
           <ul className="icons">
-            <li><a href="https://github.com/aniravi24" className="icon fa-github"><span className="label">GitHub</span></a></li>
             <li><a href="https://www.linkedin.com/in/aniravichandran" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+            <li><a href="https://github.com/aniravi24" className="icon fa-github"><span className="label">GitHub</span></a></li>
             <li><a href="https://twitter.com/therealAniRavi" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
           </ul>
           {close}
