@@ -24,7 +24,7 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Link coming soon. I'm currently working on Pepper, a digital receptionist that blocks spam and robocalls before they get to you.</p>
+          <p>I'm currently working on <a href="https://callpepper.co">Pepper</a>, a digital receptionist that blocks spam and robocalls before they get to you.</p>
           <p>I've made some other stuff for fun too. Find that on my <a href="https://github.com/aniravi24">GitHub</a>.</p>
           <p>Find the work I've done on my <a href="https://www.linkedin.com/in/aniravichandran">LinkedIn</a>.</p>
           {close}
