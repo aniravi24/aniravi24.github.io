@@ -57,8 +57,10 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           {/* <span className="image main"><img src={pic02} alt="" /></span> */}
           <p>
-            I'm currently working on something{' '}
-            <a href="https://foodfeed.live">new.</a>
+            I started <a href="https://buzzwordlabs.com">Buzzword Labs.</a> with
+            my best friend. Our current product is{' '}
+            <a href="https://foodfeed.live">FoodFeed</a>, a social platform for
+            foodies.
           </p>
           <p>
             I've made some other stuff for fun too. Find that on my{' '}
