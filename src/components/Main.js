@@ -58,9 +58,10 @@ class Main extends React.Component {
           {/* <span className="image main"><img src={pic02} alt="" /></span> */}
           <p>
             I started <a href="https://buzzwordlabs.com">Buzzword Labs</a> with
-            my best friend. Our current product is{' '}
-            <a href="https://foodfeed.live">FoodFeed</a>, a social platform for
-            foodies.
+            my best friend. We've worked on a few products, but after not
+            finding something to work on where our skillsets matched our passion
+            for a problem, we've stepped away to focus on learning and working
+            at startups.
           </p>
           <p>
             I've made some other stuff for fun too. Find that on my{' '}
@@ -112,14 +113,14 @@ class Main extends React.Component {
                 <span className="label">GitHub</span>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://twitter.com/therealAniRavi"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
-            </li>
+            </li> */}
           </ul>
           {close}
         </article>
