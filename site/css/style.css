@@ -615,6 +615,7 @@ a.category:hover {
 
 #home-text {
   font-size: 0.8em;
+  margin-left: 16px;
 }
 
 #leftarrow {
@@ -696,10 +697,11 @@ a.category:hover {
 }
 
 .right-sidebar {
-  position: absolute;
-  top: 0.75em;
-  right: 0.7em;
   display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0.1em;
 }
 
 .right-sidebar > * {

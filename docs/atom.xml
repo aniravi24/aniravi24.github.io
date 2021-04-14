@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Home</title>
     <link href="https://aniravi.com/atom.xml" rel="self" type="application/rss+xml" />
-  <updated>2021-04-14T07:08:SZ</updated>
+  <updated>2021-04-14T07:37:SZ</updated>
   <author>
       <name>Ani Ravi</name>
   </author>
@@ -101,14 +101,14 @@
       <content type="html"><![CDATA[<p>As <a href="https://medium.com/u/89fcd3585f72">Ethan Naluz</a> and I keep working on new projects, something we’ve found up until now is that we’ve never worked on something that we deeply cared about. We first worked on a robocall-blocking app called <a href="https://callpepper.co/#/">Pepper</a>, and then we worked on a product called <a href="https://foodfeed.live/">FoodFeed</a>, which was social media for foodies. We also worked on a few other things. While we learned a ton from building and built new skills each time, what we found was that as much as we could code all day, we didn’t feel a deep passion for anything we built. There was no founder-problem fit. We decided to go back to the drawing board and find something that mattered to us.</p>]]></content>
   </entry>
   <entry>
-      <title>Migrating Away From Query Builders and ORMs in JavaScript/TypeScript</title>
+      <title>Migrating Away From Query Builders and ORMs in JavaScript and TypeScript</title>
       <link href="https://aniravi.composts/move-off-orms-in-typescript.html"/>
       <id>https://aniravi.composts/move-off-orms-in-typescript.html</id>
       <updated>2020-06-12T00:00:SZ</updated>
       <category term="ORMs"/>
       <category term="JavaScript"/>
       <category term="TypeScript"/>
-      <summary>Migrating Away From Query Builders and ORMs in JavaScript/TypeScript</summary>
+      <summary>Migrating Away From Query Builders and ORMs in JavaScript and TypeScript</summary>
       <content type="html"><![CDATA[<p>I spent the better part of a day moving a project completely off of the ORM we were using (TypeORM). Ever since I started doing web development, I’ve been using some kind of heavy abstraction on top of my database. Whether it’s Mongoose when I used MongoDB, or TypeORM when I decided to move to TypeScript and PostgreSQL. However, it turns out that ORMs and query builders aren’t so great. I used to be that person that thought ORMs and query builders did the job for me, and I used it as an excuse to not learn SQL (which is what everyone tells you NOT to do). Given the tools that exist today, I would wholeheartedly recommend doing it the opposite of how I did if you’re starting off new to these things — write your SQL stuff by hand, or with help from the tools I mention later in the post. It’ll feel really slow at first, but you’ll thank yourself later 😄</p>
 <p>I’m going to split this post up into three different parts: First, I’ll talk about why query builders and ORMs aren’t worth using. Second, I’ll explore specific issues I’ve had using ORMs like TypeORM — bugs that don’t actually exist when you directly interface with the DB using the popular driver library in your language or some helper functions. Third, I’ll walk through my current preferred tooling to create an ergonomic experience with the database from a Node.js project — we can replace everything the ORM used to do but better (migrations, typed database schemas and interactions, nice helper functions for simple queries, etc).</p>
 <h3 id="part-1-why-query-builders-and-orms-arent-worth-using">Part 1: Why query builders and ORMs aren’t worth using</h3>

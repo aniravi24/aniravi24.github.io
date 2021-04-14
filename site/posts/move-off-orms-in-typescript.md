@@ -1,9 +1,9 @@
 ---
-title: "Migrating Away From Query Builders and ORMs in JavaScript/TypeScript"
+title: "Migrating Away From Query Builders and ORMs in JavaScript and TypeScript"
 author: "Ani Ravi"
 date: Jun 12, 2020
 tags: [ORMs, JavaScript, TypeScript]
-description: Migrating Away From Query Builders and ORMs in JavaScript/TypeScript
+description: Migrating Away From Query Builders and ORMs in JavaScript and TypeScript
 ---
 
 I spent the better part of a day moving a project completely off of the ORM we were using (TypeORM). Ever since I started doing web development, I’ve been using some kind of heavy abstraction on top of my database. Whether it’s Mongoose when I used MongoDB, or TypeORM when I decided to move to TypeScript and PostgreSQL. However, it turns out that ORMs and query builders aren’t so great. I used to be that person that thought ORMs and query builders did the job for me, and I used it as an excuse to not learn SQL (which is what everyone tells you NOT to do). Given the tools that exist today, I would wholeheartedly recommend doing it the opposite of how I did if you’re starting off new to these things — write your SQL stuff by hand, or with help from the tools I mention later in the post. It’ll feel really slow at first, but you’ll thank yourself later 😄
