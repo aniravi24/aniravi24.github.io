@@ -1,36 +1,38 @@
-{-# LANGUAGE NamedFieldPuns        #-}
-{-# LANGUAGE DeriveGeneric         #-}
-{-# LANGUAGE DeriveAnyClass        #-}
-{-# LANGUAGE OverloadedStrings     #-}
+{-# LANGUAGE DeriveAnyClass #-}
+{-# LANGUAGE DeriveGeneric #-}
 {-# LANGUAGE DuplicateRecordFields #-}
+{-# LANGUAGE NamedFieldPuns #-}
+{-# LANGUAGE OverloadedStrings #-}
 
 module Main where
 
-import           Control.Lens
-import           Control.Monad
-import           Data.Aeson                 as A
-import           Data.Aeson.Lens
-import           Data.Time
-import           Development.Shake
-import           Development.Shake.Classes
-import           Development.Shake.Forward
-import           Development.Shake.FilePath
-import           GHC.Generics               (Generic)
-import           Slick
-
+import Control.Lens
+import Control.Monad
+import Data.Aeson as A
+import Data.Aeson.Lens
+import Data.Function (on)
 import qualified Data.HashMap.Lazy as HML
-import qualified Data.Text                  as T
+import Data.List (sortBy)
+import qualified Data.Text as T
+import Data.Time
+import Development.Shake
+import Development.Shake.Classes
+import Development.Shake.FilePath
+import Development.Shake.Forward
+import GHC.Generics (Generic)
+import Slick
 
 ---Config-----------------------------------------------------------------------
 
 siteMeta :: SiteMeta
 siteMeta =
-    SiteMeta { siteAuthor = "Me"
-             , baseUrl = "https://example.com"
-             , siteTitle = "My Slick Site"
-             , twitterHandle = Just "myslickhandle"
-             , githubUser = Just "myslickgithubuser"
-             }
+  SiteMeta
+    { siteAuthor = "Ani Ravi",
+      baseUrl = "https://aniravi.com",
+      siteTitle = "Home",
+      twitterHandle = Nothing,
+      githubUser = Just "aniravi24"
+    }
 
 outputFolder :: FilePath
 outputFolder = "docs/"
@@ -43,43 +45,45 @@ withSiteMeta (Object obj) = Object $ HML.union obj siteMetaObj
     Object siteMetaObj = toJSON siteMeta
 withSiteMeta _ = error "only add site meta to objects"
 
-data SiteMeta =
-    SiteMeta { siteAuthor    :: String
-             , baseUrl       :: String -- e.g. https://example.ca
-             , siteTitle     :: String
-             , twitterHandle :: Maybe String -- Without @
-             , githubUser    :: Maybe String
-             }
-    deriving (Generic, Eq, Ord, Show, ToJSON)
+data SiteMeta = SiteMeta
+  { siteAuthor :: String,
+    baseUrl :: String, -- e.g. https://example.ca
+    siteTitle :: String,
+    twitterHandle :: Maybe String, -- Without @
+    githubUser :: Maybe String
+  }
+  deriving (Generic, Eq, Ord, Show, ToJSON)
 
 -- | Data for the index page
-data IndexInfo =
-  IndexInfo
-    { posts :: [Post]
-    } deriving (Generic, Show, FromJSON, ToJSON)
+data IndexInfo = IndexInfo
+  { posts :: [Post]
+  }
+  deriving (Generic, Show, FromJSON, ToJSON)
 
 type Tag = String
 
 -- | Data for a blog post
-data Post =
-    Post { title       :: String
-         , author      :: String
-         , content     :: String
-         , url         :: String
-         , date        :: String
-         , tags        :: [Tag]
-         , description :: String
-         , image       :: Maybe String
-         }
-    deriving (Generic, Eq, Ord, Show, FromJSON, ToJSON, Binary)
+data Post = Post
+  { title :: String,
+    author :: String,
+    content :: String,
+    url :: String,
+    date :: String,
+    tags :: [Tag],
+    description :: String,
+    image :: Maybe String
+  }
+  deriving (Generic, Eq, Ord, Show, FromJSON, ToJSON, Binary)
 
-data AtomData =
-  AtomData { title        :: String
-           , domain       :: String
-           , author       :: String
-           , posts        :: [Post]
-           , currentTime  :: String
-           , atomUrl      :: String } deriving (Generic, ToJSON, Eq, Ord, Show)
+data AtomData = AtomData
+  { title :: String,
+    domain :: String,
+    author :: String,
+    posts :: [Post],
+    currentTime :: String,
+    atomUrl :: String
+  }
+  deriving (Generic, ToJSON, Eq, Ord, Show)
 
 -- | given a list of posts this will build a table of contents
 buildIndex :: [Post] -> Action ()
@@ -114,9 +118,10 @@ buildPost srcPath = cacheAction ("build" :: T.Text, srcPath) $ do
 -- | Copy all static files from the listed folders to their destination
 copyStaticFiles :: Action ()
 copyStaticFiles = do
-    filepaths <- getDirectoryFiles "./site/" ["images//*", "css//*", "js//*"]
-    void $ forP filepaths $ \filepath ->
-        copyFileChanged ("site" </> filepath) (outputFolder </> filepath)
+  filepaths <- getDirectoryFiles "./site/" ["images//*", "css//*", "js//*"]
+  void $
+    forP filepaths $ \filepath ->
+      copyFileChanged ("site" </> filepath) (outputFolder </> filepath)
 
 formatDate :: String -> String
 formatDate humanDate = toIsoDate parsedTime
@@ -135,29 +140,34 @@ buildFeed posts = do
   now <- liftIO getCurrentTime
   let atomData =
         AtomData
-          { title = siteTitle siteMeta
-          , domain = baseUrl siteMeta
-          , author = siteAuthor siteMeta
-          , posts = mkAtomPost <$> posts
-          , currentTime = toIsoDate now
-          , atomUrl = "/atom.xml"
+          { title = siteTitle siteMeta,
+            domain = baseUrl siteMeta,
+            author = siteAuthor siteMeta,
+            posts = mkAtomPost <$> posts,
+            currentTime = toIsoDate now,
+            atomUrl = "/atom.xml"
           }
   atomTempl <- compileTemplate' "site/templates/atom.xml"
   writeFile' (outputFolder </> "atom.xml") . T.unpack $ substitute atomTempl (toJSON atomData)
-    where
-      mkAtomPost :: Post -> Post
-      mkAtomPost p = p { date = formatDate $ date p }
+  where
+    mkAtomPost :: Post -> Post
+    mkAtomPost p = p {date = formatDate $ date p}
 
 -- | Specific build rules for the Shake system
 --   defines workflow to build the website
 buildRules :: Action ()
 buildRules = do
-  allPosts <- buildPosts
+  allPosts <- sortByDate <$> buildPosts
   buildIndex allPosts
   buildFeed allPosts
   copyStaticFiles
 
+sortByDate :: [Post] -> [Post]
+sortByDate = sortBy (flip compareDates)
+  where
+    compareDates = compare `on` formatDate . date
+
 main :: IO ()
 main = do
-  let shOpts = shakeOptions { shakeVerbosity = Chatty, shakeLintInside = ["\\"]}
+  let shOpts = shakeOptions {shakeVerbosity = Chatty, shakeLintInside = ["\\"]}
   shakeArgsForward shOpts buildRules

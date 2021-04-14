@@ -1,23 +1,38 @@
 <!DOCTYPE html>
-<html lang="en"> 
-<head profile="http://www.w3.org/2005/10/profile">
-    <meta charset="UTF-8">
-    <meta name="description" content="{{siteTitle}}">
-    <meta name="author" content="{{siteAuthor}}">
-    <meta name=viewport content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head profile="http://www.w3.org/2005/10/profile">
+    <meta charset="UTF-8" />
+    <meta name="description" content="{{siteTitle}}" />
+    <meta name="author" content="{{siteAuthor}}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{siteTitle}}</title>
-    <link rel="icon" type="image/png" href="/images/favicon.png">
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
     {{>site/templates/header.html}}
-<div id="page">
-            <section class="table-of-contents">
-                <h1>All Posts</h1>
-                <div class="metadata">
-                </div>
-                {{>site/templates/post-list.html}}
-        </section>
-</div>
+    <div id="page">
+      <h3>Hi, I'm Ani.</h3>
+      <br />
+      <br />
+      <section class="table-of-contents">
+        <h1>Posts</h1>
+        <div class="metadata"></div>
+        {{>site/templates/post-list.html}}
+      </section>
+    </div>
 
-{{>site/templates/footer.html}}
+    <div>
+      <p class="home-paragraph">
+        I’m fascinated by statically-typed languages that encourage functional
+        programming paradigms, such as Haskell.
+      </p>
+      <p class="home-paragraph">
+        Computers were built to aid us - naturally, they should help us build
+        better programs. I care about building robust, maintainable software,
+        and am motivated by hard problems, not building the next cool widget.
+      </p>
+    </div>
+    {{>site/templates/footer.html}}
+  </body>
+</html>

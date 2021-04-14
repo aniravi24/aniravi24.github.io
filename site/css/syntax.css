@@ -1,32 +1,57 @@
 pre {
-    background-color: #F5FCFF;
+  background-color: #f5fcff;
 }
 
 code {
-    background-color: #F5FCFF;
-    color: #268BD2;
+  background-color: #f5fcff;
+  color: #268bd2;
 }
 
 /* KeyWordTok */
-.sourceCode .kw { color: #600095; }
+.sourceCode .kw {
+  color: #600095;
+}
 /* DataTypeTok */
-.sourceCode .dt { color: #268BD2; }
+.sourceCode .dt {
+  color: #268bd2;
+}
 
 /* DecValTok (decimal value), BaseNTok, FloatTok */
-.sourceCode .dv, .sourceCode .bn, .sourceCode .fl { color: #AE81FF; }
+.sourceCode .dv,
+.sourceCode .bn,
+.sourceCode .fl {
+  color: #ae81ff;
+}
 /* CharTok */
-.sourceCode .ch { color: #37ad2d; }
+.sourceCode .ch {
+  color: #37ad2d;
+}
 /* StringTok */
-.sourceCode .st { color: #37ad2d; }
+.sourceCode .st {
+  color: #37ad2d;
+}
 /* CommentTok */
-.sourceCode .co { color: #7E8E91; }
+.sourceCode .co {
+  color: #7e8e91;
+}
 /* OtherTok */
-.sourceCode .ot { color: #EB005B; }
+.sourceCode .ot {
+  color: #eb005b;
+}
 /* AlertTok */
-.sourceCode .al { color: #A6E22E; font-weight: bold; }
+.sourceCode .al {
+  color: #a6e22e;
+  font-weight: bold;
+}
 /* FunctionTok */
-.sourceCode .fu { color: #333; }
+.sourceCode .fu {
+  color: #333;
+}
 /* RegionMarkerTok */
-.sourceCode .re { }
+.sourceCode .re {
+}
 /* ErrorTok */
-.sourceCode .er { color: #E6DB74; font-weight: bold; }
+.sourceCode .er {
+  color: #e6db74;
+  font-weight: bold;
+}

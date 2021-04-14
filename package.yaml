@@ -1,10 +1,10 @@
-name:                slick-template
+name:                aniravi24-github-io
 version:             0.1.0.0
-github:              "Me/my-site"
+github:              "aniravi24/aniravi24.github.io"
 license:             BSD3
-author:              "Me"
-maintainer:          "example@example.com"
-copyright:           "20XX Me"
+author:              "Ani Ravi"
+maintainer:          ""
+copyright:           "2021 Ani Ravi"
 
 extra-source-files:
 - README.md
