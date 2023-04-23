@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build": "pnpm feed && next build && touch out/.nojekyll",
-    "deploy": "gh-pages -d out -t true",
+    "build-and-deploy": "pnpm run build && pnpm run deploy-website",
+    "deploy-website": "gh-pages -d out -t true",
     "dev": "next dev",
     "feed": "node scripts/gen-rss.js",
     "format": "prettier --write .",
