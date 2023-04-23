@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "pnpm feed && next build && touch out/.nojekyll",
+    "build": "pnpm feed && next build && next-sitemap && touch out/.nojekyll",
     "build-and-deploy": "pnpm run build && pnpm run deploy-website",
     "deploy-website": "gh-pages -d out -t true",
     "dev": "next dev",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "next": "13.3.0",
+    "next-sitemap": "4.0.7",
     "nextra": "2.4.1",
     "nextra-theme-blog": "2.4.1",
     "react": "18.2.0",
