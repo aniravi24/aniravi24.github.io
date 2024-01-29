@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://aniravi.com</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts/first-product-journey</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts/i-dont-care-about-having-fun</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts/learning-graphql-through-postgraphile</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts/living-life-as-a-series-of-meditations</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts/move-off-orms-in-typescript</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts/software-engineering-in-the-early-days-of-a-product</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts/special-about-haskell</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts/the-incredible-irony-of-dynamically-typed-languages</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts/toy-project-not-ready-for-production</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts/understanding-users-is-actually-difficult</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts/using-elixir-in-production-at-a-small-startup</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts/why-i-bought-a-framework-laptop</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts/working-on-things-that-are-fun-but-dont-matter</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://aniravi.com/posts/your-database-is-all-your-are</loc><lastmod>2023-04-29T18:12:29.837Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://aniravi.com</loc><lastmod>2024-01-23T22:51:58.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://aniravi.com/posts</loc><lastmod>2024-01-23T22:51:58.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://aniravi.com/posts/first-product-journey</loc><lastmod>2024-01-23T22:51:58.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://aniravi.com/posts/learning-graphql-through-postgraphile</loc><lastmod>2024-01-23T22:51:58.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://aniravi.com/posts/move-off-orms-in-typescript</loc><lastmod>2024-01-23T22:51:58.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://aniravi.com/posts/software-engineering-in-the-early-days-of-a-product</loc><lastmod>2024-01-23T22:51:58.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://aniravi.com/posts/special-about-haskell</loc><lastmod>2024-01-23T22:51:58.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://aniravi.com/posts/the-incredible-irony-of-dynamically-typed-languages</loc><lastmod>2024-01-23T22:51:58.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://aniravi.com/posts/toy-project-not-ready-for-production</loc><lastmod>2024-01-23T22:51:58.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://aniravi.com/posts/understanding-users-is-actually-difficult</loc><lastmod>2024-01-23T22:51:58.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://aniravi.com/posts/using-elixir-in-production-at-a-small-startup</loc><lastmod>2024-01-23T22:51:58.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://aniravi.com/posts/why-i-bought-a-framework-laptop</loc><lastmod>2024-01-23T22:51:58.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://aniravi.com/posts/working-on-things-that-are-fun-but-dont-matter</loc><lastmod>2024-01-23T22:51:58.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://aniravi.com/posts/your-database-is-all-your-are</loc><lastmod>2024-01-23T22:51:58.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
