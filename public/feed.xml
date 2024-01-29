@@ -4,8 +4,19 @@
         <description><![CDATA[Ani Ravi - personal website]]></description>
         <link>https://aniravi.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 29 Apr 2023 18:12:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Jan 2024 22:51:19 GMT</lastBuildDate>
         <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[The Short-Lived Journey of Our First Product]]></title>
+            <description><![CDATA[The story of Pepper, our first app.]]></description>
+            <link>/posts/first-product-journey</link>
+            <guid isPermaLink="true">/posts/first-product-journey</guid>
+            <category><![CDATA[Pepper]]></category>
+            <category><![CDATA[ Product]]></category>
+            <category><![CDATA[ Startups]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Thu, 20 Feb 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Learning GraphQL through PostGraphile]]></title>
             <description><![CDATA[You will learn about SQL too]]></description>
@@ -17,25 +28,27 @@
             <pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Living Life as a Series of Meditations]]></title>
-            <description><![CDATA[Another way of describing infinite games]]></description>
-            <link>/posts/living-life-as-a-series-of-meditations</link>
-            <guid isPermaLink="true">/posts/living-life-as-a-series-of-meditations</guid>
-            <category><![CDATA[Life]]></category>
-            <category><![CDATA[ Meditation]]></category>
+            <title><![CDATA[Migrating Away From Query Builders and ORMs in JavaScript and TypeScript]]></title>
+            <description><![CDATA[Alternatives]]></description>
+            <link>/posts/move-off-orms-in-typescript</link>
+            <guid isPermaLink="true">/posts/move-off-orms-in-typescript</guid>
+            <category><![CDATA[ORMs]]></category>
+            <category><![CDATA[ JavaScript]]></category>
+            <category><![CDATA[ TypeScript]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Tue, 29 Sep 2020 00:00:00 GMT</pubDate>
+            <pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The Short-Lived Journey of Our First Product]]></title>
-            <description><![CDATA[The story of Pepper, our first app.]]></description>
-            <link>/posts/first-product-journey</link>
-            <guid isPermaLink="true">/posts/first-product-journey</guid>
-            <category><![CDATA[Pepper]]></category>
-            <category><![CDATA[ Product]]></category>
-            <category><![CDATA[ Startups]]></category>
+            <title><![CDATA[The Incredible Irony of Dynamically-Typed Languages]]></title>
+            <description><![CDATA[Dynamically-typed programming sucks in a real, production codebase. Or anything with more than 10 lines of code.]]></description>
+            <link>/posts/the-incredible-irony-of-dynamically-typed-languages</link>
+            <guid isPermaLink="true">/posts/the-incredible-irony-of-dynamically-typed-languages</guid>
+            <category><![CDATA[Programming]]></category>
+            <category><![CDATA[ Types]]></category>
+            <category><![CDATA[ Languages]]></category>
+            <category><![CDATA[ Dynamic]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Thu, 20 Feb 2020 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Software Engineering in the Early Days of a Product]]></title>
@@ -59,49 +72,6 @@
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The Incredible Irony of Dynamically-Typed Languages]]></title>
-            <description><![CDATA[Dynamically-typed programming sucks in a real, production codebase. Or anything with more than 10 lines of code.]]></description>
-            <link>/posts/the-incredible-irony-of-dynamically-typed-languages</link>
-            <guid isPermaLink="true">/posts/the-incredible-irony-of-dynamically-typed-languages</guid>
-            <category><![CDATA[Programming]]></category>
-            <category><![CDATA[ Types]]></category>
-            <category><![CDATA[ Languages]]></category>
-            <category><![CDATA[ Dynamic]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Your Toy Project is Not Ready For Production]]></title>
-            <description><![CDATA[Tales of a developer.]]></description>
-            <link>/posts/toy-project-not-ready-for-production</link>
-            <guid isPermaLink="true">/posts/toy-project-not-ready-for-production</guid>
-            <category><![CDATA[Toys]]></category>
-            <category><![CDATA[ Project]]></category>
-            <category><![CDATA[ Production]]></category>
-            <category><![CDATA[ Development]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Understanding Users is Actually Difficult]]></title>
-            <description><![CDATA[Building software is easier nowadays - figuring out what software to build is tough.]]></description>
-            <link>/posts/understanding-users-is-actually-difficult</link>
-            <guid isPermaLink="true">/posts/understanding-users-is-actually-difficult</guid>
-            <category><![CDATA[Startups]]></category>
-            <category><![CDATA[ Users]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[I don't care about having fun]]></title>
-            <description><![CDATA[How I think my life should be lived]]></description>
-            <link>/posts/i-dont-care-about-having-fun</link>
-            <guid isPermaLink="true">/posts/i-dont-care-about-having-fun</guid>
-            <category><![CDATA[Life]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Sun, 13 Mar 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Why I Bought a Framework Laptop]]></title>
             <description><![CDATA[A company that deserves to exist.]]></description>
             <link>/posts/why-i-bought-a-framework-laptop</link>
@@ -111,25 +81,14 @@
             <pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Some Reflections on using Elixir in Production at a Small Startup]]></title>
-            <description><![CDATA[Using Elixir in production]]></description>
-            <link>/posts/using-elixir-in-production-at-a-small-startup</link>
-            <guid isPermaLink="true">/posts/using-elixir-in-production-at-a-small-startup</guid>
-            <category><![CDATA[Elixir]]></category>
-            <category><![CDATA[ Programming Languages]]></category>
+            <title><![CDATA[Working On Things That Are Fun, But Don’t Matter]]></title>
+            <description><![CDATA[Not everything is worth working on.]]></description>
+            <link>/posts/working-on-things-that-are-fun-but-dont-matter</link>
+            <guid isPermaLink="true">/posts/working-on-things-that-are-fun-but-dont-matter</guid>
+            <category><![CDATA[Work]]></category>
+            <category><![CDATA[ Passion]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Fri, 11 Mar 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Migrating Away From Query Builders and ORMs in JavaScript and TypeScript]]></title>
-            <description><![CDATA[Alternatives]]></description>
-            <link>/posts/move-off-orms-in-typescript</link>
-            <guid isPermaLink="true">/posts/move-off-orms-in-typescript</guid>
-            <category><![CDATA[ORMs]]></category>
-            <category><![CDATA[ JavaScript]]></category>
-            <category><![CDATA[ TypeScript]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Your Database is All You Are]]></title>
@@ -142,14 +101,36 @@
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Working On Things That Are Fun, But Don’t Matter]]></title>
-            <description><![CDATA[Not everything is worth working on.]]></description>
-            <link>/posts/working-on-things-that-are-fun-but-dont-matter</link>
-            <guid isPermaLink="true">/posts/working-on-things-that-are-fun-but-dont-matter</guid>
-            <category><![CDATA[Work]]></category>
-            <category><![CDATA[ Passion]]></category>
+            <title><![CDATA[Understanding Users is Actually Difficult]]></title>
+            <description><![CDATA[Building software is easier nowadays - figuring out what software to build is tough.]]></description>
+            <link>/posts/understanding-users-is-actually-difficult</link>
+            <guid isPermaLink="true">/posts/understanding-users-is-actually-difficult</guid>
+            <category><![CDATA[Startups]]></category>
+            <category><![CDATA[ Users]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
+            <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Some Reflections on using Elixir in Production at a Small Startup]]></title>
+            <description><![CDATA[Using Elixir in production]]></description>
+            <link>/posts/using-elixir-in-production-at-a-small-startup</link>
+            <guid isPermaLink="true">/posts/using-elixir-in-production-at-a-small-startup</guid>
+            <category><![CDATA[Elixir]]></category>
+            <category><![CDATA[ Programming Languages]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Fri, 11 Mar 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Your Toy Project is Not Ready For Production]]></title>
+            <description><![CDATA[Tales of a developer.]]></description>
+            <link>/posts/toy-project-not-ready-for-production</link>
+            <guid isPermaLink="true">/posts/toy-project-not-ready-for-production</guid>
+            <category><![CDATA[Toys]]></category>
+            <category><![CDATA[ Project]]></category>
+            <category><![CDATA[ Production]]></category>
+            <category><![CDATA[ Development]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
