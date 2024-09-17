@@ -17,7 +17,7 @@ async function generate() {
       if (name.startsWith("index.")) return;
 
       const content = await fs.readFile(
-        path.join(__dirname, "..", "pages", "posts", name)
+        path.join(__dirname, "..", "pages", "posts", name),
       );
       const frontmatter = matter(content);
 
@@ -29,7 +29,7 @@ async function generate() {
         categories: frontmatter.data.tag.split(","),
         author: frontmatter.data.author,
       });
-    })
+    }),
   );
 
   await fs.writeFile("./public/feed.xml", feed.xml({ indent: true }));
