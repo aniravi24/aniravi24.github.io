@@ -1,24 +1,12 @@
 import { nodeTypes } from "@mdx-js/mdx";
 import nextra from "nextra";
 import rehypeRaw from "rehype-raw";
-import remarkShikiTwoslash from "remark-shiki-twoslash";
 
 const withNextra = nextra({
   theme: "nextra-theme-blog",
   themeConfig: "./theme.config.tsx",
   mdxOptions: {
     rehypePlugins: [[rehypeRaw, { passThrough: nodeTypes }]],
-    remarkPlugins: [
-      [
-        remarkShikiTwoslash.default,
-        {
-          defaultCompilerOptions: {
-            types: ["node"],
-          },
-          themes: ["dark-plus", "light-plus"],
-        },
-      ],
-    ],
   },
 });
 
