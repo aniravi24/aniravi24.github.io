@@ -8,23 +8,23 @@ description: What many engineering teams seem to miss
 
 As I've been reflecting on work I've done that I enjoyed vs work that I didn't, one thing has consistently stood out to me. Each opportunity had something that stood out about the engineering or product culture. The thing is, there are a lot of different levers you can pull here, and it's interesting seeing teams that don't pull any of these levers (the most boring jobs to work). The following are a (non-exhaustive) list of ways an engineering team stands out:
 
-## 1. Unique language choice
+### 1. Unique language choice
 
 Some companies stand out because of the tooling they use to build their technology, which has a huge influence on a lot of other decisions, as well as the people who are attracted to your team. For example, a company like [Bun](https://bun.sh/) uses Zig, an unconventional language choice. A good friend of mine loves ReasonML/OCaml. It's not that you have to have a large audience of people who agree with your tooling choices - but having some opinion gets you to stand out for the right engineer.
 
-## 2. Unique approach to using "boring" tools
+### 2. Unique approach to using "boring" tools
 
 Many companies pride themselves on using "boring" technology - they don't want to use anything too new, just things that are tried and tested. A company that sticks out meaningfully amongst the sea of companies like this is [Zerodha](https://zerodha.tech/). They self-host and use open-source software for their entire technology stack. When I say everything, I mean literally everything, including their HR systems to manage their employees. It's a incredibly rare but principled approach to building technology, and one that most wouldn't recommend for a variety of reasons, but they made it work. They have a product team of ~30 engineers and do $800M in revenue, entirely bootstrapped (as of 2023), and almost no PMs or designers.
 
-## 3. Compensation
+### 3. Compensation
 
 Companies like Netflix stand out because they project a culture of high-performance, high-pay. Others may offer unusually high equity. How effective this is on its own to attract great engineering talent is up for debate, but it's certainly a useful lever for those who can pull it.
 
-## 4. Autonomy
+### 4. Autonomy
 
 I've worked at a startup that offered me significant autonomy, almost to a fault. Due to that, I learned so much about building products. When you give people who deeply desire self-actualization the proper space to do so, it's surprising the magic you can create with the right guardrails in place.
 
-## 5. Unique problems
+### 5. Unique problems
 
 Some products are built based on solving things that have never been solved in history, or otherwise extremely challenging problems. Like Sam Altman says, [it's easier to build a hard company than an easy company](https://youtu.be/GiwpsoTT3p8). Sometimes interesting problems are hidden in plain sight, and it might require some communication on your part to show engineers why it's an interesting problem. A lot of seemingly boring problems (e.g. something to do with taxes) can easily be written off if people don't get a strong sense of why it might be interesting.
 
