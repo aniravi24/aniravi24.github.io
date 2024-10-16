@@ -26,7 +26,7 @@ I've worked at a startup that offered me significant autonomy, almost to a fault
 
 ## 5. Unique problems
 
-Some products are built based on solving things that have never been solved in history, or otherwise extremely challenging problems. Like Sam Altman says, [it's easier to build a hard company than an easy company](https://youtu.be/GiwpsoTT3p8).
+Some products are built based on solving things that have never been solved in history, or otherwise extremely challenging problems. Like Sam Altman says, [it's easier to build a hard company than an easy company](https://youtu.be/GiwpsoTT3p8). Sometimes interesting problems are hidden in plain sight, and it might require some communication on your part to show engineers why it's an interesting problem. A lot of seemingly boring problems (e.g. something to do with taxes) can easily be written off if people don't get a strong sense of why it might be interesting.
 
 ---
 
