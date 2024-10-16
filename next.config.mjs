@@ -1,13 +1,8 @@
-import { nodeTypes } from "@mdx-js/mdx";
 import nextra from "nextra";
-import rehypeRaw from "rehype-raw";
 
 const withNextra = nextra({
   theme: "nextra-theme-blog",
   themeConfig: "./theme.config.tsx",
-  mdxOptions: {
-    rehypePlugins: [[rehypeRaw, { passThrough: nodeTypes }]],
-  },
 });
 
 /** @type {import('next').NextConfig} */
