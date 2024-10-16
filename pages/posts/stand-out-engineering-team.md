@@ -1,8 +1,8 @@
 ---
-title: "How to make an engineering team stand out"
-author: "Ani Ravi"
+title: How to make an engineering team stand out
+author: Ani Ravi
 date: 2024-10-16
-tags: Company, Startup, Engineering
+tag: Company, Startup, Engineering
 description: What many engineering teams seem to be miss
 ---
 
