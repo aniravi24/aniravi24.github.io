@@ -4,7 +4,7 @@
         <description><![CDATA[Ani Ravi - personal website]]></description>
         <link>https://aniravi.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 16 Oct 2024 20:49:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Oct 2024 21:09:36 GMT</lastBuildDate>
         <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[The Short-Lived Journey of Our First Product]]></title>
@@ -71,18 +71,6 @@
             <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Your Toy Project is Not Ready For Production]]></title>
-            <description><![CDATA[Tales of a developer.]]></description>
-            <link>/posts/toy-project-not-ready-for-production</link>
-            <guid isPermaLink="true">/posts/toy-project-not-ready-for-production</guid>
-            <category><![CDATA[Toys]]></category>
-            <category><![CDATA[ Project]]></category>
-            <category><![CDATA[ Production]]></category>
-            <category><![CDATA[ Development]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[The Incredible Irony of Dynamically-Typed Languages]]></title>
             <description><![CDATA[Dynamically-typed programming sucks in a real, production codebase. Or anything with more than 10 lines of code.]]></description>
             <link>/posts/the-incredible-irony-of-dynamically-typed-languages</link>
@@ -93,6 +81,18 @@
             <category><![CDATA[ Dynamic]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Your Toy Project is Not Ready For Production]]></title>
+            <description><![CDATA[Tales of a developer.]]></description>
+            <link>/posts/toy-project-not-ready-for-production</link>
+            <guid isPermaLink="true">/posts/toy-project-not-ready-for-production</guid>
+            <category><![CDATA[Toys]]></category>
+            <category><![CDATA[ Project]]></category>
+            <category><![CDATA[ Production]]></category>
+            <category><![CDATA[ Development]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Understanding Users is Actually Difficult]]></title>
