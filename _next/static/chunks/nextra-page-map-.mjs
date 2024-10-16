@@ -74,7 +74,7 @@ export const pageMap = [{
       "author": "Ani Ravi",
       "date": new Date(1729036800000),
       "tag": "Company, Startup, Engineering",
-      "description": "What many engineering teams seem to be miss"
+      "description": "What many engineering teams seem to miss"
     }
   }, {
     name: "the-incredible-irony-of-dynamically-typed-languages",

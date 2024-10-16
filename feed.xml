@@ -4,7 +4,7 @@
         <description><![CDATA[Ani Ravi - personal website]]></description>
         <link>https://aniravi.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 16 Oct 2024 20:39:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Oct 2024 20:42:22 GMT</lastBuildDate>
         <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[The Short-Lived Journey of Our First Product]]></title>
@@ -60,6 +60,17 @@
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[How to make an engineering team stand out]]></title>
+            <description><![CDATA[What many engineering teams seem to miss]]></description>
+            <link>/posts/stand-out-engineering-team</link>
+            <guid isPermaLink="true">/posts/stand-out-engineering-team</guid>
+            <category><![CDATA[Company]]></category>
+            <category><![CDATA[ Startup]]></category>
+            <category><![CDATA[ Engineering]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[The Incredible Irony of Dynamically-Typed Languages]]></title>
             <description><![CDATA[Dynamically-typed programming sucks in a real, production codebase. Or anything with more than 10 lines of code.]]></description>
             <link>/posts/the-incredible-irony-of-dynamically-typed-languages</link>
@@ -70,17 +81,6 @@
             <category><![CDATA[ Dynamic]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How to make an engineering team stand out]]></title>
-            <description><![CDATA[What many engineering teams seem to be miss]]></description>
-            <link>/posts/stand-out-engineering-team</link>
-            <guid isPermaLink="true">/posts/stand-out-engineering-team</guid>
-            <category><![CDATA[Company]]></category>
-            <category><![CDATA[ Startup]]></category>
-            <category><![CDATA[ Engineering]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Your Toy Project is Not Ready For Production]]></title>
