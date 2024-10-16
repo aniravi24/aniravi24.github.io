@@ -3,7 +3,7 @@ title: How to make an engineering team stand out
 author: Ani Ravi
 date: 2024-10-16
 tag: Company, Startup, Engineering
-description: What many engineering teams seem to be miss
+description: What many engineering teams seem to miss
 ---
 
 As I've been reflecting on work I've done that I enjoyed vs work that I didn't, one thing has consistently stood out to me. Each opportunity had something that stood out about the engineering or product culture. The thing is, there are a lot of different levers you can pull here, and it's interesting seeing teams that don't pull any of these levers (the most boring jobs to work). The following are a (non-exhaustive) list of ways an engineering team stands out:
