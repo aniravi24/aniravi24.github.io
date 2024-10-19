@@ -22,7 +22,7 @@ export const pageMap = [{
     name: "first-product-journey",
     route: "/posts/first-product-journey",
     frontMatter: {
-      "title": "The Short-Lived Journey of Our First Product",
+      "title": "The short-lived journey of our first product",
       "author": "Ani Ravi",
       "date": new Date(1582156800000),
       "tag": "Pepper, Product, Startups",
@@ -60,7 +60,7 @@ export const pageMap = [{
     name: "move-off-orms-in-typescript",
     route: "/posts/move-off-orms-in-typescript",
     frontMatter: {
-      "title": "Migrating Away From Query Builders and ORMs in JavaScript and TypeScript",
+      "title": "Migrating away from query builders and ORMs in JavaScript and TypeScript",
       "author": "Ani Ravi",
       "date": new Date(1591920000000),
       "tag": "ORMs, JavaScript, TypeScript",
@@ -70,7 +70,7 @@ export const pageMap = [{
     name: "software-engineering-in-the-early-days-of-a-product",
     route: "/posts/software-engineering-in-the-early-days-of-a-product",
     frontMatter: {
-      "title": "Software Engineering in the Early Days of a Product",
+      "title": "Software engineering in the early days of a product",
       "author": "Ani Ravi",
       "date": new Date(1656028800000),
       "tag": "Engineering, Technology",
@@ -120,7 +120,7 @@ export const pageMap = [{
     name: "the-incredible-irony-of-dynamically-typed-languages",
     route: "/posts/the-incredible-irony-of-dynamically-typed-languages",
     frontMatter: {
-      "title": "The Incredible Irony of Dynamically-Typed Languages",
+      "title": "The incredible irony of dynamically-typed languages",
       "author": "Ani Ravi",
       "date": new Date(1620691200000),
       "tag": "Programming, Types, Languages, Dynamic",
@@ -130,7 +130,7 @@ export const pageMap = [{
     name: "toy-project-not-ready-for-production",
     route: "/posts/toy-project-not-ready-for-production",
     frontMatter: {
-      "title": "Your Toy Project is Not Ready For Production",
+      "title": "Your toy project is not ready for production",
       "author": "Ani Ravi",
       "date": new Date(1586563200000),
       "tag": "Toys, Project, Production, Development",
@@ -140,7 +140,7 @@ export const pageMap = [{
     name: "understanding-users-is-actually-difficult",
     route: "/posts/understanding-users-is-actually-difficult",
     frontMatter: {
-      "title": "Understanding Users is Actually Difficult",
+      "title": "Understanding users is actually difficult",
       "author": "Ani Ravi",
       "date": new Date(1647043200000),
       "tag": "Startups, Users",
@@ -150,7 +150,7 @@ export const pageMap = [{
     name: "using-elixir-in-production-at-a-small-startup",
     route: "/posts/using-elixir-in-production-at-a-small-startup",
     frontMatter: {
-      "title": "Some Reflections on using Elixir in Production at a Small Startup",
+      "title": "Some reflections on using elixir in production at a small startup",
       "author": "Ani Ravi",
       "date": new Date(1646956800000),
       "tag": "Elixir, Programming Languages",
@@ -160,7 +160,7 @@ export const pageMap = [{
     name: "why-i-bought-a-framework-laptop",
     route: "/posts/why-i-bought-a-framework-laptop",
     frontMatter: {
-      "title": "Why I Bought a Framework Laptop",
+      "title": "Why I bought a Framework laptop",
       "author": "Ani Ravi",
       "date": new Date(1637452800000),
       "tag": "Passion",
@@ -170,7 +170,7 @@ export const pageMap = [{
     name: "working-on-things-that-are-fun-but-dont-matter",
     route: "/posts/working-on-things-that-are-fun-but-dont-matter",
     frontMatter: {
-      "title": "Working On Things That Are Fun, But Don’t Matter",
+      "title": "Working on things that are fun, but don’t matter",
       "author": "Ani Ravi",
       "date": new Date(1596499200000),
       "tag": "Work, Passion",
@@ -180,7 +180,7 @@ export const pageMap = [{
     name: "your-database-is-all-your-are",
     route: "/posts/your-database-is-all-your-are",
     frontMatter: {
-      "title": "Your Database is All You Are",
+      "title": "Your database is all you are",
       "author": "Ani Ravi",
       "date": new Date(1616284800000),
       "tag": "PostgreSQL, Databases",

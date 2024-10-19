@@ -4,7 +4,7 @@
         <description><![CDATA[Ani Ravi - personal website]]></description>
         <link>https://aniravi.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 19 Oct 2024 03:21:26 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Oct 2024 03:33:24 GMT</lastBuildDate>
         <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[An underrated part of using GraphQL]]></title>
@@ -18,7 +18,7 @@
             <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The Short-Lived Journey of Our First Product]]></title>
+            <title><![CDATA[The short-lived journey of our first product]]></title>
             <description><![CDATA[The story of Pepper, our first app.]]></description>
             <link>/posts/first-product-journey</link>
             <guid isPermaLink="true">/posts/first-product-journey</guid>
@@ -49,7 +49,7 @@
             <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Migrating Away From Query Builders and ORMs in JavaScript and TypeScript]]></title>
+            <title><![CDATA[Migrating away from query builders and ORMs in JavaScript and TypeScript]]></title>
             <description><![CDATA[Alternatives]]></description>
             <link>/posts/move-off-orms-in-typescript</link>
             <guid isPermaLink="true">/posts/move-off-orms-in-typescript</guid>
@@ -60,7 +60,7 @@
             <pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Software Engineering in the Early Days of a Product]]></title>
+            <title><![CDATA[Software engineering in the early days of a product]]></title>
             <description><![CDATA[Some things I've learned about building software in the early days of something new.]]></description>
             <link>/posts/software-engineering-in-the-early-days-of-a-product</link>
             <guid isPermaLink="true">/posts/software-engineering-in-the-early-days-of-a-product</guid>
@@ -81,6 +81,16 @@
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Starting a company - my final act of desperation]]></title>
+            <description><![CDATA[When to start a company]]></description>
+            <link>/posts/starting-a-company</link>
+            <guid isPermaLink="true">/posts/starting-a-company</guid>
+            <category><![CDATA[Company]]></category>
+            <category><![CDATA[ Startup]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[How to make an engineering team stand out]]></title>
             <description><![CDATA[What many engineering teams seem to miss]]></description>
             <link>/posts/stand-out-engineering-team</link>
@@ -90,16 +100,6 @@
             <category><![CDATA[ Engineering]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Starting a company - my final act of desperation]]></title>
-            <description><![CDATA[When to start a company]]></description>
-            <link>/posts/starting-a-company</link>
-            <guid isPermaLink="true">/posts/starting-a-company</guid>
-            <category><![CDATA[Company]]></category>
-            <category><![CDATA[ Startup]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The future of TypeScript]]></title>
@@ -115,7 +115,7 @@
             <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The Incredible Irony of Dynamically-Typed Languages]]></title>
+            <title><![CDATA[The incredible irony of dynamically-typed languages]]></title>
             <description><![CDATA[Dynamically-typed programming sucks in a real, production codebase. Or anything with more than 10 lines of code.]]></description>
             <link>/posts/the-incredible-irony-of-dynamically-typed-languages</link>
             <guid isPermaLink="true">/posts/the-incredible-irony-of-dynamically-typed-languages</guid>
@@ -127,7 +127,7 @@
             <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Your Toy Project is Not Ready For Production]]></title>
+            <title><![CDATA[Your toy project is not ready for production]]></title>
             <description><![CDATA[Tales of a developer.]]></description>
             <link>/posts/toy-project-not-ready-for-production</link>
             <guid isPermaLink="true">/posts/toy-project-not-ready-for-production</guid>
@@ -139,7 +139,7 @@
             <pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Understanding Users is Actually Difficult]]></title>
+            <title><![CDATA[Understanding users is actually difficult]]></title>
             <description><![CDATA[Building software is easier nowadays - figuring out what software to build is tough.]]></description>
             <link>/posts/understanding-users-is-actually-difficult</link>
             <guid isPermaLink="true">/posts/understanding-users-is-actually-difficult</guid>
@@ -149,7 +149,7 @@
             <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Some Reflections on using Elixir in Production at a Small Startup]]></title>
+            <title><![CDATA[Some reflections on using elixir in production at a small startup]]></title>
             <description><![CDATA[Using Elixir in production]]></description>
             <link>/posts/using-elixir-in-production-at-a-small-startup</link>
             <guid isPermaLink="true">/posts/using-elixir-in-production-at-a-small-startup</guid>
@@ -159,7 +159,7 @@
             <pubDate>Fri, 11 Mar 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Why I Bought a Framework Laptop]]></title>
+            <title><![CDATA[Why I bought a Framework laptop]]></title>
             <description><![CDATA[A company that deserves to exist.]]></description>
             <link>/posts/why-i-bought-a-framework-laptop</link>
             <guid isPermaLink="true">/posts/why-i-bought-a-framework-laptop</guid>
@@ -168,7 +168,7 @@
             <pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Working On Things That Are Fun, But Don’t Matter]]></title>
+            <title><![CDATA[Working on things that are fun, but don’t matter]]></title>
             <description><![CDATA[Not everything is worth working on.]]></description>
             <link>/posts/working-on-things-that-are-fun-but-dont-matter</link>
             <guid isPermaLink="true">/posts/working-on-things-that-are-fun-but-dont-matter</guid>
@@ -178,7 +178,7 @@
             <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Your Database is All You Are]]></title>
+            <title><![CDATA[Your database is all you are]]></title>
             <description><![CDATA[Get serious about your data]]></description>
             <link>/posts/your-database-is-all-your-are</link>
             <guid isPermaLink="true">/posts/your-database-is-all-your-are</guid>
