@@ -1,5 +1,5 @@
 ---
-title: Your Toy Project is Not Ready For Production
+title: Your toy project is not ready for production
 author: Ani Ravi
 date: 2020-04-11
 tag: Toys, Project, Production, Development

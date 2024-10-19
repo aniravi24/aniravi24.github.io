@@ -1,5 +1,5 @@
 ---
-title: Migrating Away From Query Builders and ORMs in JavaScript and TypeScript
+title: Migrating away from query builders and ORMs in JavaScript and TypeScript
 author: Ani Ravi
 date: 2020-06-12
 tag: ORMs, JavaScript, TypeScript
