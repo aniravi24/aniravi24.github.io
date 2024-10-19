@@ -6,8 +6,6 @@ tag: Career, Life
 description: What differentiates long-term winners from everyone else?
 ---
 
-Big caveat: This post is mainly useful for those that can take some risk financially. If you can't even afford to pay for necessities, this post is likely not going to be useful for you at all if/until you get there.
-
 Every decision I've made in terms of work has been to follow what I'm interested in over choosing something with brand value or a significant paycheck. At my first startup, we were a bunch of nobodies that didn't make a salary for quite some time just to get the company off the ground. Looking back, that was probably one of the most formative experiences I could've had at that time in my life. When I narrate this story to other people, I realize most of my peers' experiences coming out of college were nothing like mine.
 
 The conclusion I've come to is that to have outsized long-term success, chasing things like brand or income are usually going to lead you to hitting local maxima (or as the young folks would say, you're going to "peak" much sooner). For some people, they peak super early, in fact, their most notable accomplishments might be in high school or college, and they go downhill from there.
