@@ -1,5 +1,5 @@
 ---
-title: Software Engineering in the Early Days of a Product
+title: Software engineering in the early days of a product
 author: Ani Ravi
 date: 2022-06-24
 tag: Engineering, Technology

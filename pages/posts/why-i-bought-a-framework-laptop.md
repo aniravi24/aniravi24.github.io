@@ -1,5 +1,5 @@
 ---
-title: Why I Bought a Framework Laptop
+title: Why I bought a Framework laptop
 author: Ani Ravi
 date: 2021-11-21
 tag: Passion

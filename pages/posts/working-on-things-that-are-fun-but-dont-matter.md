@@ -1,5 +1,5 @@
 ---
-title: Working On Things That Are Fun, But Don’t Matter
+title: Working on things that are fun, but don’t matter
 author: Ani Ravi
 date: 2020-08-04
 tag: Work, Passion

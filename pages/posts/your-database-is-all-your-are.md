@@ -1,5 +1,5 @@
 ---
-title: Your Database is All You Are
+title: Your database is all you are
 author: Ani Ravi
 date: 2021-03-21
 tag: PostgreSQL, Databases

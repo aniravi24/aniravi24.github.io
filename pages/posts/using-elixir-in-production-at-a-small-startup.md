@@ -1,5 +1,5 @@
 ---
-title: Some Reflections on using Elixir in Production at a Small Startup
+title: Some reflections on using elixir in production at a small startup
 author: Ani Ravi
 date: 2022-03-11
 tag: Elixir, Programming Languages

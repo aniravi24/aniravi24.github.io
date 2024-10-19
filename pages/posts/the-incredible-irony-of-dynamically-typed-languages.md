@@ -1,5 +1,5 @@
 ---
-title: The Incredible Irony of Dynamically-Typed Languages
+title: The incredible irony of dynamically-typed languages
 author: Ani Ravi
 date: 2021-05-11
 tag: Programming, Types, Languages, Dynamic

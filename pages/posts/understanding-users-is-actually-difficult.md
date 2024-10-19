@@ -1,5 +1,5 @@
 ---
-title: Understanding Users is Actually Difficult
+title: Understanding users is actually difficult
 author: Ani Ravi
 date: 2022-03-12
 tag: Startups, Users

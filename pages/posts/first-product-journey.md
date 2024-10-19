@@ -1,5 +1,5 @@
 ---
-title: The Short-Lived Journey of Our First Product
+title: The short-lived journey of our first product
 author: Ani Ravi
 date: 2020-02-20
 tag: Pepper, Product, Startups
