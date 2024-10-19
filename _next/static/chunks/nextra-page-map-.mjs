@@ -54,7 +54,7 @@ export const pageMap = [{
       "author": "Ani Ravi",
       "date": new Date(1727827200000),
       "tag": "Career, Life",
-      "description": "What differentiates long-term winners from everyone else?"
+      "description": "One potential path to long-term success"
     }
   }, {
     name: "move-off-orms-in-typescript",
