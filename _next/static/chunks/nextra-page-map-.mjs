@@ -9,6 +9,16 @@ export const pageMap = [{
   name: "posts",
   route: "/posts",
   children: [{
+    name: "an-underrated-part-of-using-graphql",
+    route: "/posts/an-underrated-part-of-using-graphql",
+    frontMatter: {
+      "title": "An underrated part of using GraphQL",
+      "author": "Ani Ravi",
+      "date": new Date(1676073600000),
+      "tag": "Programming, GraphQL, Libraries",
+      "description": "Consistent naming."
+    }
+  }, {
     name: "first-product-journey",
     route: "/posts/first-product-journey",
     frontMatter: {
@@ -35,6 +45,16 @@ export const pageMap = [{
       "date": new Date(1597190400000),
       "tag": "GraphQL, PostGraphile",
       "description": "You will learn about SQL too"
+    }
+  }, {
+    name: "long-term-vs-short-term-career-choices",
+    route: "/posts/long-term-vs-short-term-career-choices",
+    frontMatter: {
+      "title": "Long-term vs short-term career choices",
+      "author": "Ani Ravi",
+      "date": new Date(1727827200000),
+      "tag": "Career, Life",
+      "description": "What differentiates long-term winners from everyone else?"
     }
   }, {
     name: "move-off-orms-in-typescript",
@@ -75,6 +95,26 @@ export const pageMap = [{
       "date": new Date(1729036800000),
       "tag": "Company, Startup, Engineering",
       "description": "What many engineering teams seem to miss"
+    }
+  }, {
+    name: "starting-a-company",
+    route: "/posts/starting-a-company",
+    frontMatter: {
+      "title": "Starting a company - my final act of desperation",
+      "author": "Ani Ravi",
+      "date": new Date(1727827200000),
+      "tag": "Company, Startup",
+      "description": "When to start a company"
+    }
+  }, {
+    name: "the-future-of-typescript",
+    route: "/posts/the-future-of-typescript",
+    frontMatter: {
+      "title": "The future of TypeScript",
+      "author": "Ani Ravi",
+      "date": new Date(1676073600000),
+      "tag": "TypeScript, Programming, Effect, Functional, Libraries",
+      "description": "This set of libraries will revolutionize how we write TypeScript."
     }
   }, {
     name: "the-incredible-irony-of-dynamically-typed-languages",

@@ -4,8 +4,19 @@
         <description><![CDATA[Ani Ravi - personal website]]></description>
         <link>https://aniravi.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 16 Oct 2024 21:17:41 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Oct 2024 03:21:26 GMT</lastBuildDate>
         <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[An underrated part of using GraphQL]]></title>
+            <description><![CDATA[Consistent naming.]]></description>
+            <link>/posts/an-underrated-part-of-using-graphql</link>
+            <guid isPermaLink="true">/posts/an-underrated-part-of-using-graphql</guid>
+            <category><![CDATA[Programming]]></category>
+            <category><![CDATA[ GraphQL]]></category>
+            <category><![CDATA[ Libraries]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[The Short-Lived Journey of Our First Product]]></title>
             <description><![CDATA[The story of Pepper, our first app.]]></description>
@@ -26,6 +37,16 @@
             <category><![CDATA[ PostGraphile]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Long-term vs short-term career choices]]></title>
+            <description><![CDATA[What differentiates long-term winners from everyone else?]]></description>
+            <link>/posts/long-term-vs-short-term-career-choices</link>
+            <guid isPermaLink="true">/posts/long-term-vs-short-term-career-choices</guid>
+            <category><![CDATA[Career]]></category>
+            <category><![CDATA[ Life]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Migrating Away From Query Builders and ORMs in JavaScript and TypeScript]]></title>
@@ -69,6 +90,29 @@
             <category><![CDATA[ Engineering]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Starting a company - my final act of desperation]]></title>
+            <description><![CDATA[When to start a company]]></description>
+            <link>/posts/starting-a-company</link>
+            <guid isPermaLink="true">/posts/starting-a-company</guid>
+            <category><![CDATA[Company]]></category>
+            <category><![CDATA[ Startup]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The future of TypeScript]]></title>
+            <description><![CDATA[This set of libraries will revolutionize how we write TypeScript.]]></description>
+            <link>/posts/the-future-of-typescript</link>
+            <guid isPermaLink="true">/posts/the-future-of-typescript</guid>
+            <category><![CDATA[TypeScript]]></category>
+            <category><![CDATA[ Programming]]></category>
+            <category><![CDATA[ Effect]]></category>
+            <category><![CDATA[ Functional]]></category>
+            <category><![CDATA[ Libraries]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Incredible Irony of Dynamically-Typed Languages]]></title>
