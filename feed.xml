@@ -4,7 +4,7 @@
         <description><![CDATA[Ani Ravi - personal website]]></description>
         <link>https://aniravi.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 19 Oct 2024 14:14:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Oct 2024 17:25:07 GMT</lastBuildDate>
         <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[An underrated part of using GraphQL]]></title>
@@ -18,16 +18,6 @@
             <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Learning GraphQL through PostGraphile]]></title>
-            <description><![CDATA[You will learn about SQL too]]></description>
-            <link>/posts/learning-graphql-through-postgraphile</link>
-            <guid isPermaLink="true">/posts/learning-graphql-through-postgraphile</guid>
-            <category><![CDATA[GraphQL]]></category>
-            <category><![CDATA[ PostGraphile]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[The short-lived journey of our first product]]></title>
             <description><![CDATA[The story of Pepper, our first app.]]></description>
             <link>/posts/first-product-journey</link>
@@ -37,6 +27,16 @@
             <category><![CDATA[ Startups]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Thu, 20 Feb 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Learning GraphQL through PostGraphile]]></title>
+            <description><![CDATA[You will learn about SQL too]]></description>
+            <link>/posts/learning-graphql-through-postgraphile</link>
+            <guid isPermaLink="true">/posts/learning-graphql-through-postgraphile</guid>
+            <category><![CDATA[GraphQL]]></category>
+            <category><![CDATA[ PostGraphile]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Long-term vs short-term career choices]]></title>
@@ -81,16 +81,6 @@
             <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Starting a company - my final act of desperation]]></title>
-            <description><![CDATA[When to start a company]]></description>
-            <link>/posts/starting-a-company</link>
-            <guid isPermaLink="true">/posts/starting-a-company</guid>
-            <category><![CDATA[Company]]></category>
-            <category><![CDATA[ Startup]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[What’s special about Haskell if you can already program in another language?]]></title>
             <description><![CDATA[What’s special about Haskell if you can already program in another language?]]></description>
             <link>/posts/special-about-haskell</link>
@@ -100,6 +90,16 @@
             <category><![CDATA[ Languages]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Starting a company - my final act of desperation]]></title>
+            <description><![CDATA[When to start a company]]></description>
+            <link>/posts/starting-a-company</link>
+            <guid isPermaLink="true">/posts/starting-a-company</guid>
+            <category><![CDATA[Company]]></category>
+            <category><![CDATA[ Startup]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The future of TypeScript]]></title>
