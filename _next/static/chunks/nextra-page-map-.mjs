@@ -80,7 +80,7 @@ export const pageMap = [{
     name: "special-about-haskell",
     route: "/posts/special-about-haskell",
     frontMatter: {
-      "title": "What’s special about Haskell if you can already program in another language?",
+      "title": "What’s special about Haskell?",
       "author": "Ani Ravi",
       "date": new Date(1616284800000),
       "tag": "Haskell, Programming, Languages",
@@ -100,7 +100,7 @@ export const pageMap = [{
     name: "starting-a-company",
     route: "/posts/starting-a-company",
     frontMatter: {
-      "title": "Starting a company - my final act of desperation",
+      "title": "Musings on starting a company",
       "author": "Ani Ravi",
       "date": new Date(1727827200000),
       "tag": "Company, Startup",
