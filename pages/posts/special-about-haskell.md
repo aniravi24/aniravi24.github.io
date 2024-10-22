@@ -1,5 +1,5 @@
 ---
-title: What’s special about Haskell if you can already program in another language?
+title: What’s special about Haskell?
 author: Ani Ravi
 date: 2021-03-21
 tag: Haskell, Programming, Languages

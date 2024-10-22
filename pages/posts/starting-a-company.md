@@ -1,5 +1,5 @@
 ---
-title: Starting a company - my final act of desperation
+title: Musings on starting a company
 author: Ani Ravi
 date: 2024-10-02
 tag: Company, Startup
