@@ -4,7 +4,7 @@
         <description><![CDATA[Ani Ravi - personal website]]></description>
         <link>https://aniravi.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 04 Nov 2024 04:26:51 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Nov 2024 17:37:26 GMT</lastBuildDate>
         <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[An underrated part of using GraphQL]]></title>
@@ -49,6 +49,16 @@
             <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Software engineering in the early days of a product]]></title>
+            <description><![CDATA[Some things I've learned about building software in the early days of something new.]]></description>
+            <link>/posts/software-engineering-in-the-early-days-of-a-product</link>
+            <guid isPermaLink="true">/posts/software-engineering-in-the-early-days-of-a-product</guid>
+            <category><![CDATA[Engineering]]></category>
+            <category><![CDATA[ Technology]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Migrating away from query builders and ORMs in JavaScript and TypeScript]]></title>
             <description><![CDATA[Alternatives]]></description>
             <link>/posts/move-off-orms-in-typescript</link>
@@ -58,16 +68,6 @@
             <category><![CDATA[ TypeScript]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Software engineering in the early days of a product]]></title>
-            <description><![CDATA[Some things I've learned about building software in the early days of something new.]]></description>
-            <link>/posts/software-engineering-in-the-early-days-of-a-product</link>
-            <guid isPermaLink="true">/posts/software-engineering-in-the-early-days-of-a-product</guid>
-            <category><![CDATA[Engineering]]></category>
-            <category><![CDATA[ Technology]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What’s special about Haskell?]]></title>
@@ -102,18 +102,6 @@
             <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The incredible irony of dynamically-typed languages]]></title>
-            <description><![CDATA[Dynamically-typed programming sucks in a real, production codebase. Or anything with more than 10 lines of code.]]></description>
-            <link>/posts/the-incredible-irony-of-dynamically-typed-languages</link>
-            <guid isPermaLink="true">/posts/the-incredible-irony-of-dynamically-typed-languages</guid>
-            <category><![CDATA[Programming]]></category>
-            <category><![CDATA[ Types]]></category>
-            <category><![CDATA[ Languages]]></category>
-            <category><![CDATA[ Dynamic]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[The future of TypeScript]]></title>
             <description><![CDATA[This set of libraries will revolutionize how we write TypeScript.]]></description>
             <link>/posts/the-future-of-typescript</link>
@@ -125,6 +113,18 @@
             <category><![CDATA[ Libraries]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The incredible irony of dynamically-typed languages]]></title>
+            <description><![CDATA[Dynamically-typed programming sucks in a real, production codebase. Or anything with more than 10 lines of code.]]></description>
+            <link>/posts/the-incredible-irony-of-dynamically-typed-languages</link>
+            <guid isPermaLink="true">/posts/the-incredible-irony-of-dynamically-typed-languages</guid>
+            <category><![CDATA[Programming]]></category>
+            <category><![CDATA[ Types]]></category>
+            <category><![CDATA[ Languages]]></category>
+            <category><![CDATA[ Dynamic]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Your toy project is not ready for production]]></title>
