@@ -4,7 +4,7 @@
         <description><![CDATA[Ani Ravi - personal website]]></description>
         <link>https://aniravi.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 26 Nov 2024 19:49:41 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 Nov 2024 02:52:32 GMT</lastBuildDate>
         <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[An underrated part of using GraphQL]]></title>
@@ -49,16 +49,6 @@
             <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Software engineering in the early days of a product]]></title>
-            <description><![CDATA[Some things I've learned about building software in the early days of something new.]]></description>
-            <link>/posts/software-engineering-in-the-early-days-of-a-product</link>
-            <guid isPermaLink="true">/posts/software-engineering-in-the-early-days-of-a-product</guid>
-            <category><![CDATA[Engineering]]></category>
-            <category><![CDATA[ Technology]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Migrating away from query builders and ORMs in JavaScript and TypeScript]]></title>
             <description><![CDATA[Alternatives]]></description>
             <link>/posts/move-off-orms-in-typescript</link>
@@ -68,6 +58,16 @@
             <category><![CDATA[ TypeScript]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Software engineering in the early days of a product]]></title>
+            <description><![CDATA[Some things I've learned about building software in the early days of something new.]]></description>
+            <link>/posts/software-engineering-in-the-early-days-of-a-product</link>
+            <guid isPermaLink="true">/posts/software-engineering-in-the-early-days-of-a-product</guid>
+            <category><![CDATA[Engineering]]></category>
+            <category><![CDATA[ Technology]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What’s special about Haskell?]]></title>
