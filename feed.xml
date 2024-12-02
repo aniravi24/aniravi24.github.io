@@ -4,7 +4,7 @@
         <description><![CDATA[Ani Ravi - personal website]]></description>
         <link>https://aniravi.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 02 Dec 2024 03:16:50 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Dec 2024 03:19:56 GMT</lastBuildDate>
         <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[An underrated part of using GraphQL]]></title>
@@ -49,6 +49,17 @@
             <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Migrating away from query builders and ORMs in JavaScript and TypeScript]]></title>
+            <description><![CDATA[Alternatives]]></description>
+            <link>/posts/move-off-orms-in-typescript</link>
+            <guid isPermaLink="true">/posts/move-off-orms-in-typescript</guid>
+            <category><![CDATA[ORMs]]></category>
+            <category><![CDATA[ JavaScript]]></category>
+            <category><![CDATA[ TypeScript]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Software engineering in the early days of a product]]></title>
             <description><![CDATA[Some things I've learned about building software in the early days of something new.]]></description>
             <link>/posts/software-engineering-in-the-early-days-of-a-product</link>
@@ -68,17 +79,6 @@
             <category><![CDATA[ Languages]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Migrating away from query builders and ORMs in JavaScript and TypeScript]]></title>
-            <description><![CDATA[Alternatives]]></description>
-            <link>/posts/move-off-orms-in-typescript</link>
-            <guid isPermaLink="true">/posts/move-off-orms-in-typescript</guid>
-            <category><![CDATA[ORMs]]></category>
-            <category><![CDATA[ JavaScript]]></category>
-            <category><![CDATA[ TypeScript]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to make an engineering team stand out]]></title>
