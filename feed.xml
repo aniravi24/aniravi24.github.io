@@ -4,7 +4,7 @@
         <description><![CDATA[Ani Ravi - personal website]]></description>
         <link>https://aniravi.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 22 Dec 2024 19:46:24 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 30 Dec 2024 02:09:34 GMT</lastBuildDate>
         <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[An underrated part of using GraphQL]]></title>
@@ -115,18 +115,6 @@
             <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The incredible irony of dynamically-typed languages]]></title>
-            <description><![CDATA[Dynamically-typed programming sucks in a real, production codebase. Or anything with more than 10 lines of code.]]></description>
-            <link>/posts/the-incredible-irony-of-dynamically-typed-languages</link>
-            <guid isPermaLink="true">/posts/the-incredible-irony-of-dynamically-typed-languages</guid>
-            <category><![CDATA[Programming]]></category>
-            <category><![CDATA[ Types]]></category>
-            <category><![CDATA[ Languages]]></category>
-            <category><![CDATA[ Dynamic]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Your toy project is not ready for production]]></title>
             <description><![CDATA[Tales of a developer.]]></description>
             <link>/posts/toy-project-not-ready-for-production</link>
@@ -137,6 +125,18 @@
             <category><![CDATA[ Development]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The incredible irony of dynamically-typed languages]]></title>
+            <description><![CDATA[Dynamically-typed programming sucks in a real, production codebase. Or anything with more than 10 lines of code.]]></description>
+            <link>/posts/the-incredible-irony-of-dynamically-typed-languages</link>
+            <guid isPermaLink="true">/posts/the-incredible-irony-of-dynamically-typed-languages</guid>
+            <category><![CDATA[Programming]]></category>
+            <category><![CDATA[ Types]]></category>
+            <category><![CDATA[ Languages]]></category>
+            <category><![CDATA[ Dynamic]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Understanding users is actually difficult]]></title>
