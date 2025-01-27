@@ -4,7 +4,7 @@
         <description><![CDATA[Ani Ravi - personal website]]></description>
         <link>https://aniravi.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Jan 2025 02:13:37 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jan 2025 01:25:17 GMT</lastBuildDate>
         <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[An underrated part of using GraphQL]]></title>
@@ -92,6 +92,16 @@
             <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Musings on starting a company]]></title>
+            <description><![CDATA[When to start a company]]></description>
+            <link>/posts/starting-a-company</link>
+            <guid isPermaLink="true">/posts/starting-a-company</guid>
+            <category><![CDATA[Company]]></category>
+            <category><![CDATA[ Startup]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[The future of TypeScript]]></title>
             <description><![CDATA[This set of libraries will revolutionize how we write TypeScript.]]></description>
             <link>/posts/the-future-of-typescript</link>
@@ -103,16 +113,6 @@
             <category><![CDATA[ Libraries]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Musings on starting a company]]></title>
-            <description><![CDATA[When to start a company]]></description>
-            <link>/posts/starting-a-company</link>
-            <guid isPermaLink="true">/posts/starting-a-company</guid>
-            <category><![CDATA[Company]]></category>
-            <category><![CDATA[ Startup]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The incredible irony of dynamically-typed languages]]></title>
@@ -168,16 +168,6 @@
             <pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Working on things that are fun, but don’t matter]]></title>
-            <description><![CDATA[Not everything is worth working on.]]></description>
-            <link>/posts/working-on-things-that-are-fun-but-dont-matter</link>
-            <guid isPermaLink="true">/posts/working-on-things-that-are-fun-but-dont-matter</guid>
-            <category><![CDATA[Work]]></category>
-            <category><![CDATA[ Passion]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Your database is all you are]]></title>
             <description><![CDATA[Get serious about your data]]></description>
             <link>/posts/your-database-is-all-your-are</link>
@@ -186,6 +176,16 @@
             <category><![CDATA[ Databases]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Working on things that are fun, but don’t matter]]></title>
+            <description><![CDATA[Not everything is worth working on.]]></description>
+            <link>/posts/working-on-things-that-are-fun-but-dont-matter</link>
+            <guid isPermaLink="true">/posts/working-on-things-that-are-fun-but-dont-matter</guid>
+            <category><![CDATA[Work]]></category>
+            <category><![CDATA[ Passion]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
