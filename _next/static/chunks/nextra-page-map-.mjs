@@ -9,16 +9,6 @@ export const pageMap = [{
   name: "posts",
   route: "/posts",
   children: [{
-    name: "an-underrated-part-of-using-graphql",
-    route: "/posts/an-underrated-part-of-using-graphql",
-    frontMatter: {
-      "title": "An underrated part of using GraphQL",
-      "author": "Ani Ravi",
-      "date": new Date(1676073600000),
-      "tag": "Programming, GraphQL, Libraries",
-      "description": "Consistent naming."
-    }
-  }, {
     name: "first-product-journey",
     route: "/posts/first-product-journey",
     frontMatter: {
@@ -28,6 +18,16 @@ export const pageMap = [{
       "tag": "Pepper, Product, Startups",
       "description": "The story of Pepper, our first app.",
       "image": "/images/pepperlogo.png"
+    }
+  }, {
+    name: "how-to-do-great-engineering",
+    route: "/posts/how-to-do-great-engineering",
+    frontMatter: {
+      "title": "Doing great product engineering",
+      "author": "Ani Ravi",
+      "date": new Date(1739232000000),
+      "tag": "Engineering, Technology",
+      "description": "Sharing some core ideas I've learned on what it takes"
     }
   }, {
     name: "index",

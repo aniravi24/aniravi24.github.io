@@ -4,19 +4,8 @@
         <description><![CDATA[Ani Ravi - personal website]]></description>
         <link>https://aniravi.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 03 Feb 2025 00:31:59 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Feb 2025 02:43:12 GMT</lastBuildDate>
         <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <item>
-            <title><![CDATA[An underrated part of using GraphQL]]></title>
-            <description><![CDATA[Consistent naming.]]></description>
-            <link>/posts/an-underrated-part-of-using-graphql</link>
-            <guid isPermaLink="true">/posts/an-underrated-part-of-using-graphql</guid>
-            <category><![CDATA[Programming]]></category>
-            <category><![CDATA[ GraphQL]]></category>
-            <category><![CDATA[ Libraries]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[The short-lived journey of our first product]]></title>
             <description><![CDATA[The story of Pepper, our first app.]]></description>
@@ -27,6 +16,16 @@
             <category><![CDATA[ Startups]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Thu, 20 Feb 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Doing great product engineering]]></title>
+            <description><![CDATA[Sharing some core ideas I've learned on what it takes]]></description>
+            <link>/posts/how-to-do-great-engineering</link>
+            <guid isPermaLink="true">/posts/how-to-do-great-engineering</guid>
+            <category><![CDATA[Engineering]]></category>
+            <category><![CDATA[ Technology]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Tue, 11 Feb 2025 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Learning GraphQL through PostGraphile]]></title>
@@ -159,6 +158,15 @@
             <pubDate>Fri, 11 Mar 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Why I bought a Framework laptop]]></title>
+            <description><![CDATA[A company that deserves to exist.]]></description>
+            <link>/posts/why-i-bought-a-framework-laptop</link>
+            <guid isPermaLink="true">/posts/why-i-bought-a-framework-laptop</guid>
+            <category><![CDATA[Passion]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Working on things that are fun, but don’t matter]]></title>
             <description><![CDATA[Not everything is worth working on.]]></description>
             <link>/posts/working-on-things-that-are-fun-but-dont-matter</link>
@@ -167,15 +175,6 @@
             <category><![CDATA[ Passion]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Why I bought a Framework laptop]]></title>
-            <description><![CDATA[A company that deserves to exist.]]></description>
-            <link>/posts/why-i-bought-a-framework-laptop</link>
-            <guid isPermaLink="true">/posts/why-i-bought-a-framework-laptop</guid>
-            <category><![CDATA[Passion]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Your database is all you are]]></title>
