@@ -11,15 +11,11 @@ export async function getPosts() {
     .sort(
       (a, b) =>
         new Date(b.frontMatter.date).getTime() -
-        new Date(a.frontMatter.date).getTime()
+        new Date(a.frontMatter.date).getTime(),
     );
 }
 
 export async function getTags() {
   const posts = await getPosts();
-  return posts.flatMap((post) =>
-    post.frontMatter.tags
-      .map((tag: string) => tag.trim())
-      .filter((tag: string) => tag.length > 0)
-  );
+  return posts.flatMap((post) => post.frontMatter.tags);
 }

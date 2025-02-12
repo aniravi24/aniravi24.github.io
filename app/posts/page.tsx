@@ -7,18 +7,15 @@ export const metadata = {
 };
 
 export default async function PostsPage() {
-  const tags = await getTags();
-  const posts = await getPosts();
-  const allTags: Record<string, number> = Object.create(null);
+  const [tags, posts] = await Promise.all([getTags(), getPosts()]);
 
-  for (const tag of tags) {
-    allTags[tag] ??= 0;
-    allTags[tag] += 1;
-  }
+  // Count tag occurrences using reduce
+  const tagCounts = tags.reduce((acc: Record<string, number>, tag) => {
+    acc[tag] = (acc[tag] || 0) + 1;
+    return acc;
+  }, {});
 
-  const sortedTags = Object.entries(allTags).sort(
-    ([, countA], [, countB]) => (countB as number) - (countA as number)
-  );
+  const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
 
   return (
     <div data-pagefind-ignore="all">
@@ -29,7 +26,7 @@ export default async function PostsPage() {
       >
         {sortedTags.map(([tag, count]) => (
           <Link key={tag} href={`/tags/${tag}`} className="nextra-tag">
-            {tag} ({count.toString()})
+            {tag} ({count})
           </Link>
         ))}
       </div>
