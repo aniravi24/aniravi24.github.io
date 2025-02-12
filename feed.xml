@@ -1,190 +1,162 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title><![CDATA[Ani Ravi - personal website]]></title>
-        <description><![CDATA[Ani Ravi - personal website]]></description>
-        <link>https://aniravi.com</link>
-        <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 12 Feb 2025 03:49:35 GMT</lastBuildDate>
-        <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <item>
-            <title><![CDATA[Doing great product engineering]]></title>
-            <description><![CDATA[Sharing some core ideas I've learned on what it takes]]></description>
-            <link>/posts/doing-great-product-engineering</link>
-            <guid isPermaLink="true">/posts/doing-great-product-engineering</guid>
-            <category><![CDATA[Engineering]]></category>
-            <category><![CDATA[ Technology]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Tue, 11 Feb 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[The short-lived journey of our first product]]></title>
-            <description><![CDATA[The story of Pepper, our first app.]]></description>
-            <link>/posts/first-product-journey</link>
-            <guid isPermaLink="true">/posts/first-product-journey</guid>
-            <category><![CDATA[Pepper]]></category>
-            <category><![CDATA[ Product]]></category>
-            <category><![CDATA[ Startups]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Thu, 20 Feb 2020 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Learning GraphQL through PostGraphile]]></title>
-            <description><![CDATA[You will learn about SQL too]]></description>
-            <link>/posts/learning-graphql-through-postgraphile</link>
-            <guid isPermaLink="true">/posts/learning-graphql-through-postgraphile</guid>
-            <category><![CDATA[GraphQL]]></category>
-            <category><![CDATA[ PostGraphile]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Long-term vs short-term career choices]]></title>
-            <description><![CDATA[One potential path to long-term success]]></description>
-            <link>/posts/long-term-vs-short-term-career-choices</link>
-            <guid isPermaLink="true">/posts/long-term-vs-short-term-career-choices</guid>
-            <category><![CDATA[Career]]></category>
-            <category><![CDATA[ Life]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Migrating away from query builders and ORMs in JavaScript and TypeScript]]></title>
-            <description><![CDATA[Alternatives]]></description>
-            <link>/posts/move-off-orms-in-typescript</link>
-            <guid isPermaLink="true">/posts/move-off-orms-in-typescript</guid>
-            <category><![CDATA[ORMs]]></category>
-            <category><![CDATA[ JavaScript]]></category>
-            <category><![CDATA[ TypeScript]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Software engineering in the early days of a product]]></title>
-            <description><![CDATA[Some things I've learned about building software in the early days of something new.]]></description>
-            <link>/posts/software-engineering-in-the-early-days-of-a-product</link>
-            <guid isPermaLink="true">/posts/software-engineering-in-the-early-days-of-a-product</guid>
-            <category><![CDATA[Engineering]]></category>
-            <category><![CDATA[ Technology]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[What’s special about Haskell?]]></title>
-            <description><![CDATA[What’s special about Haskell if you can already program in another language?]]></description>
-            <link>/posts/special-about-haskell</link>
-            <guid isPermaLink="true">/posts/special-about-haskell</guid>
-            <category><![CDATA[Haskell]]></category>
-            <category><![CDATA[ Programming]]></category>
-            <category><![CDATA[ Languages]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How to make an engineering team stand out]]></title>
-            <description><![CDATA[What many engineering teams seem to miss]]></description>
-            <link>/posts/stand-out-engineering-team</link>
-            <guid isPermaLink="true">/posts/stand-out-engineering-team</guid>
-            <category><![CDATA[Company]]></category>
-            <category><![CDATA[ Startup]]></category>
-            <category><![CDATA[ Engineering]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Musings on starting a company]]></title>
-            <description><![CDATA[When to start a company]]></description>
-            <link>/posts/starting-a-company</link>
-            <guid isPermaLink="true">/posts/starting-a-company</guid>
-            <category><![CDATA[Company]]></category>
-            <category><![CDATA[ Startup]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[The future of TypeScript]]></title>
-            <description><![CDATA[This set of libraries will revolutionize how we write TypeScript.]]></description>
-            <link>/posts/the-future-of-typescript</link>
-            <guid isPermaLink="true">/posts/the-future-of-typescript</guid>
-            <category><![CDATA[TypeScript]]></category>
-            <category><![CDATA[ Programming]]></category>
-            <category><![CDATA[ Effect]]></category>
-            <category><![CDATA[ Functional]]></category>
-            <category><![CDATA[ Libraries]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[The incredible irony of dynamically-typed languages]]></title>
-            <description><![CDATA[Dynamically-typed programming sucks in a real, production codebase. Or anything with more than 10 lines of code.]]></description>
-            <link>/posts/the-incredible-irony-of-dynamically-typed-languages</link>
-            <guid isPermaLink="true">/posts/the-incredible-irony-of-dynamically-typed-languages</guid>
-            <category><![CDATA[Programming]]></category>
-            <category><![CDATA[ Types]]></category>
-            <category><![CDATA[ Languages]]></category>
-            <category><![CDATA[ Dynamic]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Your toy project is not ready for production]]></title>
-            <description><![CDATA[Tales of a developer.]]></description>
-            <link>/posts/toy-project-not-ready-for-production</link>
-            <guid isPermaLink="true">/posts/toy-project-not-ready-for-production</guid>
-            <category><![CDATA[Toys]]></category>
-            <category><![CDATA[ Project]]></category>
-            <category><![CDATA[ Production]]></category>
-            <category><![CDATA[ Development]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Understanding users is actually difficult]]></title>
-            <description><![CDATA[Building software is easier nowadays - figuring out what software to build is tough.]]></description>
-            <link>/posts/understanding-users-is-actually-difficult</link>
-            <guid isPermaLink="true">/posts/understanding-users-is-actually-difficult</guid>
-            <category><![CDATA[Startups]]></category>
-            <category><![CDATA[ Users]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Why I bought a Framework laptop]]></title>
-            <description><![CDATA[A company that deserves to exist.]]></description>
-            <link>/posts/why-i-bought-a-framework-laptop</link>
-            <guid isPermaLink="true">/posts/why-i-bought-a-framework-laptop</guid>
-            <category><![CDATA[Passion]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Working on things that are fun, but don’t matter]]></title>
-            <description><![CDATA[Not everything is worth working on.]]></description>
-            <link>/posts/working-on-things-that-are-fun-but-dont-matter</link>
-            <guid isPermaLink="true">/posts/working-on-things-that-are-fun-but-dont-matter</guid>
-            <category><![CDATA[Work]]></category>
-            <category><![CDATA[ Passion]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Some reflections on using elixir in production at a small startup]]></title>
-            <description><![CDATA[Using Elixir in production]]></description>
-            <link>/posts/using-elixir-in-production-at-a-small-startup</link>
-            <guid isPermaLink="true">/posts/using-elixir-in-production-at-a-small-startup</guid>
-            <category><![CDATA[Elixir]]></category>
-            <category><![CDATA[ Programming Languages]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Fri, 11 Mar 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Your database is all you are]]></title>
-            <description><![CDATA[Get serious about your data]]></description>
-            <link>/posts/your-database-is-all-your-are</link>
-            <guid isPermaLink="true">/posts/your-database-is-all-your-are</guid>
-            <category><![CDATA[PostgreSQL]]></category>
-            <category><![CDATA[ Databases]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
-        </item>
-    </channel>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Ani Ravi - personal website</title>
+    <link>https://aniravi.com</link>
+    <description>Ani Ravi's personal website</description>
+    <language>en-us</language>
+    <item>
+        <title>Doing great product engineering</title>
+        <description><![CDATA[Sharing some core ideas I've learned on what it takes]]></description>
+        <link>https://aniravi.com/posts/doing-great-product-engineering</link>
+        <guid>https://aniravi.com/posts/doing-great-product-engineering</guid>
+        <pubDate>Tue, 11 Feb 2025 00:00:00 GMT</pubDate>
+        <category>Engineering</category><category>Technology</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>How to make an engineering team stand out</title>
+        <description><![CDATA[What many engineering teams seem to miss]]></description>
+        <link>https://aniravi.com/posts/stand-out-engineering-team</link>
+        <guid>https://aniravi.com/posts/stand-out-engineering-team</guid>
+        <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
+        <category>Company</category><category>Startup</category><category>Engineering</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>Long-term vs short-term career choices</title>
+        <description><![CDATA[One potential path to long-term success]]></description>
+        <link>https://aniravi.com/posts/long-term-vs-short-term-career-choices</link>
+        <guid>https://aniravi.com/posts/long-term-vs-short-term-career-choices</guid>
+        <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
+        <category>Career</category><category>Life</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>Musings on starting a company</title>
+        <description><![CDATA[When to start a company]]></description>
+        <link>https://aniravi.com/posts/starting-a-company</link>
+        <guid>https://aniravi.com/posts/starting-a-company</guid>
+        <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
+        <category>Company</category><category>Startup</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>The future of TypeScript</title>
+        <description><![CDATA[This set of libraries will revolutionize how we write TypeScript.]]></description>
+        <link>https://aniravi.com/posts/the-future-of-typescript</link>
+        <guid>https://aniravi.com/posts/the-future-of-typescript</guid>
+        <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
+        <category>TypeScript</category><category>Programming</category><category>Effect</category><category>Functional</category><category>Libraries</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>Software engineering in the early days of a product</title>
+        <description><![CDATA[Some things I've learned about building software in the early days of something new.]]></description>
+        <link>https://aniravi.com/posts/software-engineering-in-the-early-days-of-a-product</link>
+        <guid>https://aniravi.com/posts/software-engineering-in-the-early-days-of-a-product</guid>
+        <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
+        <category>Engineering</category><category>Technology</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>Understanding users is actually difficult</title>
+        <description><![CDATA[Building software is easier nowadays - figuring out what software to build is tough.]]></description>
+        <link>https://aniravi.com/posts/understanding-users-is-actually-difficult</link>
+        <guid>https://aniravi.com/posts/understanding-users-is-actually-difficult</guid>
+        <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
+        <category>Startups</category><category>Users</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>Some reflections on using elixir in production at a small startup</title>
+        <description><![CDATA[Using Elixir in production]]></description>
+        <link>https://aniravi.com/posts/using-elixir-in-production-at-a-small-startup</link>
+        <guid>https://aniravi.com/posts/using-elixir-in-production-at-a-small-startup</guid>
+        <pubDate>Fri, 11 Mar 2022 00:00:00 GMT</pubDate>
+        <category>Elixir</category><category>Programming</category><category>Languages</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>Why I bought a Framework laptop</title>
+        <description><![CDATA[A company that deserves to exist.]]></description>
+        <link>https://aniravi.com/posts/why-i-bought-a-framework-laptop</link>
+        <guid>https://aniravi.com/posts/why-i-bought-a-framework-laptop</guid>
+        <pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate>
+        <category>Computer</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>The incredible irony of dynamically-typed languages</title>
+        <description><![CDATA[Dynamically-typed programming sucks in a real, production codebase. Or anything with more than 10 lines of code.]]></description>
+        <link>https://aniravi.com/posts/the-incredible-irony-of-dynamically-typed-languages</link>
+        <guid>https://aniravi.com/posts/the-incredible-irony-of-dynamically-typed-languages</guid>
+        <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
+        <category>Programming</category><category>Types</category><category>Languages</category><category>Dynamic</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>What’s special about Haskell?</title>
+        <description><![CDATA[What’s special about Haskell if you can already program in another language?]]></description>
+        <link>https://aniravi.com/posts/special-about-haskell</link>
+        <guid>https://aniravi.com/posts/special-about-haskell</guid>
+        <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+        <category>Haskell</category><category>Programming</category><category>Languages</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>Your database is all you are</title>
+        <description><![CDATA[Get serious about your data]]></description>
+        <link>https://aniravi.com/posts/your-database-is-all-your-are</link>
+        <guid>https://aniravi.com/posts/your-database-is-all-your-are</guid>
+        <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+        <category>PostgreSQL</category><category>Databases</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>Learning GraphQL through PostGraphile</title>
+        <description><![CDATA[You will learn about SQL too]]></description>
+        <link>https://aniravi.com/posts/learning-graphql-through-postgraphile</link>
+        <guid>https://aniravi.com/posts/learning-graphql-through-postgraphile</guid>
+        <pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate>
+        <category>GraphQL</category><category>PostGraphile</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>Working on things that are fun, but don’t matter</title>
+        <description><![CDATA[Not everything is worth working on.]]></description>
+        <link>https://aniravi.com/posts/working-on-things-that-are-fun-but-dont-matter</link>
+        <guid>https://aniravi.com/posts/working-on-things-that-are-fun-but-dont-matter</guid>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
+        <category>Work</category><category>Passion</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>Migrating away from query builders and ORMs in JavaScript and TypeScript</title>
+        <description><![CDATA[Alternatives]]></description>
+        <link>https://aniravi.com/posts/move-off-orms-in-typescript</link>
+        <guid>https://aniravi.com/posts/move-off-orms-in-typescript</guid>
+        <pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate>
+        <category>ORMs</category><category>JavaScript</category><category>TypeScript</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>Your toy project is not ready for production</title>
+        <description><![CDATA[Tales of a developer.]]></description>
+        <link>https://aniravi.com/posts/toy-project-not-ready-for-production</link>
+        <guid>https://aniravi.com/posts/toy-project-not-ready-for-production</guid>
+        <pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate>
+        <category>Project</category>
+        <author>Ani Ravi</author>
+    </item>
+    <item>
+        <title>The short-lived journey of our first product</title>
+        <description><![CDATA[The story of Pepper, our first app.]]></description>
+        <link>https://aniravi.com/posts/first-product-journey</link>
+        <guid>https://aniravi.com/posts/first-product-journey</guid>
+        <pubDate>Thu, 20 Feb 2020 00:00:00 GMT</pubDate>
+        <category>Pepper</category><category>Product</category><category>Startups</category>
+        <author>Ani Ravi</author>
+    </item>
+  </channel>
 </rss>
