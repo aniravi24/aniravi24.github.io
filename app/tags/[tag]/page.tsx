@@ -25,9 +25,7 @@ export default async function TagPage(props: { params: any }) {
       <h1>{title}</h1>
       {posts
         .filter((post) => {
-          const postTags = post.frontMatter.tags
-            .map((tag: string) => tag.trim())
-            .filter((tag: string) => tag.length > 0);
+          const postTags = post.frontMatter.tags;
           return postTags.includes(decodeURIComponent(params.tag));
         })
         .map((post) => (
