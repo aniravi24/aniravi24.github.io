@@ -4,8 +4,18 @@
         <description><![CDATA[Ani Ravi - personal website]]></description>
         <link>https://aniravi.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 12 Feb 2025 02:52:46 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Feb 2025 03:49:35 GMT</lastBuildDate>
         <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Doing great product engineering]]></title>
+            <description><![CDATA[Sharing some core ideas I've learned on what it takes]]></description>
+            <link>/posts/doing-great-product-engineering</link>
+            <guid isPermaLink="true">/posts/doing-great-product-engineering</guid>
+            <category><![CDATA[Engineering]]></category>
+            <category><![CDATA[ Technology]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Tue, 11 Feb 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[The short-lived journey of our first product]]></title>
             <description><![CDATA[The story of Pepper, our first app.]]></description>
@@ -16,16 +26,6 @@
             <category><![CDATA[ Startups]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Thu, 20 Feb 2020 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Doing great product engineering]]></title>
-            <description><![CDATA[Sharing some core ideas I've learned on what it takes]]></description>
-            <link>/posts/how-to-do-great-engineering</link>
-            <guid isPermaLink="true">/posts/how-to-do-great-engineering</guid>
-            <category><![CDATA[Engineering]]></category>
-            <category><![CDATA[ Technology]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Tue, 11 Feb 2025 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Learning GraphQL through PostGraphile]]></title>
@@ -148,16 +148,6 @@
             <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Some reflections on using elixir in production at a small startup]]></title>
-            <description><![CDATA[Using Elixir in production]]></description>
-            <link>/posts/using-elixir-in-production-at-a-small-startup</link>
-            <guid isPermaLink="true">/posts/using-elixir-in-production-at-a-small-startup</guid>
-            <category><![CDATA[Elixir]]></category>
-            <category><![CDATA[ Programming Languages]]></category>
-            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
-            <pubDate>Fri, 11 Mar 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Why I bought a Framework laptop]]></title>
             <description><![CDATA[A company that deserves to exist.]]></description>
             <link>/posts/why-i-bought-a-framework-laptop</link>
@@ -175,6 +165,16 @@
             <category><![CDATA[ Passion]]></category>
             <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
             <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Some reflections on using elixir in production at a small startup]]></title>
+            <description><![CDATA[Using Elixir in production]]></description>
+            <link>/posts/using-elixir-in-production-at-a-small-startup</link>
+            <guid isPermaLink="true">/posts/using-elixir-in-production-at-a-small-startup</guid>
+            <category><![CDATA[Elixir]]></category>
+            <category><![CDATA[ Programming Languages]]></category>
+            <dc:creator><![CDATA[Ani Ravi]]></dc:creator>
+            <pubDate>Fri, 11 Mar 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Your database is all you are]]></title>

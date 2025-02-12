@@ -9,6 +9,16 @@ export const pageMap = [{
   name: "posts",
   route: "/posts",
   children: [{
+    name: "doing-great-product-engineering",
+    route: "/posts/doing-great-product-engineering",
+    frontMatter: {
+      "title": "Doing great product engineering",
+      "author": "Ani Ravi",
+      "date": new Date(1739232000000),
+      "tag": "Engineering, Technology",
+      "description": "Sharing some core ideas I've learned on what it takes"
+    }
+  }, {
     name: "first-product-journey",
     route: "/posts/first-product-journey",
     frontMatter: {
@@ -18,16 +28,6 @@ export const pageMap = [{
       "tag": "Pepper, Product, Startups",
       "description": "The story of Pepper, our first app.",
       "image": "/images/pepperlogo.png"
-    }
-  }, {
-    name: "how-to-do-great-engineering",
-    route: "/posts/how-to-do-great-engineering",
-    frontMatter: {
-      "title": "Doing great product engineering",
-      "author": "Ani Ravi",
-      "date": new Date(1739232000000),
-      "tag": "Engineering, Technology",
-      "description": "Sharing some core ideas I've learned on what it takes"
     }
   }, {
     name: "index",
