@@ -11,15 +11,6 @@ export const viewport = {
 };
 
 export const metadata = {
-  title: "Ani Ravi",
-  description: "Ani Ravi's personal website.",
-  openGraph: {
-    title: "Ani Ravi",
-    description: "Ani Ravi's personal website.",
-    siteName: "Ani Ravi",
-  },
-  keywords: "", // meta.tag
-  authors: [{ name: "" }], // meta.author
   robots: {
     index: true,
     follow: true,
