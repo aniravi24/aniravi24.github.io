@@ -51,7 +51,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Head backgroundColor={{ dark: "#0f172a", light: "#fefce8" }}>
+      <Head>
         <link
           rel="alternate"
           type="application/rss+xml"
