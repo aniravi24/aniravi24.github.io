@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://aniravi.com
-
-# Sitemaps
-Sitemap: https://aniravi.com/sitemap.xml
