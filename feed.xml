@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Ani Ravi - personal website</title>
     <link>https://aniravi.com</link>
     <description>Ani Ravi's personal website</description>
     <language>en-us</language>
+    <atom:link href="https://aniravi.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
         <title>Doing great product engineering</title>
         <description><![CDATA[Sharing some core ideas I've learned on what it takes]]></description>
@@ -12,7 +13,7 @@
         <guid>https://aniravi.com/posts/doing-great-product-engineering</guid>
         <pubDate>Tue, 11 Feb 2025 00:00:00 GMT</pubDate>
         <category>Engineering</category><category>Technology</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>How to make an engineering team stand out</title>
@@ -21,7 +22,7 @@
         <guid>https://aniravi.com/posts/stand-out-engineering-team</guid>
         <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
         <category>Company</category><category>Startup</category><category>Engineering</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>Long-term vs short-term career choices</title>
@@ -30,7 +31,7 @@
         <guid>https://aniravi.com/posts/long-term-vs-short-term-career-choices</guid>
         <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
         <category>Career</category><category>Life</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>Musings on starting a company</title>
@@ -39,7 +40,7 @@
         <guid>https://aniravi.com/posts/starting-a-company</guid>
         <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
         <category>Company</category><category>Startup</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>The future of TypeScript</title>
@@ -48,7 +49,7 @@
         <guid>https://aniravi.com/posts/the-future-of-typescript</guid>
         <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
         <category>TypeScript</category><category>Programming</category><category>Effect</category><category>Functional</category><category>Libraries</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>Software engineering in the early days of a product</title>
@@ -57,7 +58,7 @@
         <guid>https://aniravi.com/posts/software-engineering-in-the-early-days-of-a-product</guid>
         <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
         <category>Engineering</category><category>Technology</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>Understanding users is actually difficult</title>
@@ -66,7 +67,7 @@
         <guid>https://aniravi.com/posts/understanding-users-is-actually-difficult</guid>
         <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
         <category>Startups</category><category>Users</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>Some reflections on using elixir in production at a small startup</title>
@@ -75,7 +76,7 @@
         <guid>https://aniravi.com/posts/using-elixir-in-production-at-a-small-startup</guid>
         <pubDate>Fri, 11 Mar 2022 00:00:00 GMT</pubDate>
         <category>Elixir</category><category>Programming</category><category>Languages</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>Why I bought a Framework laptop</title>
@@ -84,7 +85,7 @@
         <guid>https://aniravi.com/posts/why-i-bought-a-framework-laptop</guid>
         <pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate>
         <category>Computer</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>The incredible irony of dynamically-typed languages</title>
@@ -93,7 +94,7 @@
         <guid>https://aniravi.com/posts/the-incredible-irony-of-dynamically-typed-languages</guid>
         <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
         <category>Programming</category><category>Types</category><category>Languages</category><category>Dynamic</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>What’s special about Haskell?</title>
@@ -102,7 +103,7 @@
         <guid>https://aniravi.com/posts/special-about-haskell</guid>
         <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
         <category>Haskell</category><category>Programming</category><category>Languages</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>Your database is all you are</title>
@@ -111,7 +112,7 @@
         <guid>https://aniravi.com/posts/your-database-is-all-your-are</guid>
         <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
         <category>PostgreSQL</category><category>Databases</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>Learning GraphQL through PostGraphile</title>
@@ -120,7 +121,7 @@
         <guid>https://aniravi.com/posts/learning-graphql-through-postgraphile</guid>
         <pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate>
         <category>GraphQL</category><category>PostGraphile</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>Working on things that are fun, but don’t matter</title>
@@ -129,7 +130,7 @@
         <guid>https://aniravi.com/posts/working-on-things-that-are-fun-but-dont-matter</guid>
         <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
         <category>Work</category><category>Passion</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>Migrating away from query builders and ORMs in JavaScript and TypeScript</title>
@@ -138,7 +139,7 @@
         <guid>https://aniravi.com/posts/move-off-orms-in-typescript</guid>
         <pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate>
         <category>ORMs</category><category>JavaScript</category><category>TypeScript</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>Your toy project is not ready for production</title>
@@ -147,7 +148,7 @@
         <guid>https://aniravi.com/posts/toy-project-not-ready-for-production</guid>
         <pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate>
         <category>Project</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
     <item>
         <title>The short-lived journey of our first product</title>
@@ -156,7 +157,7 @@
         <guid>https://aniravi.com/posts/first-product-journey</guid>
         <pubDate>Thu, 20 Feb 2020 00:00:00 GMT</pubDate>
         <category>Pepper</category><category>Product</category><category>Startups</category>
-        <author>Ani Ravi</author>
+        <dc:creator>Ani Ravi</dc:creator>
     </item>
   </channel>
 </rss>
