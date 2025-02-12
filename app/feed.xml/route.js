@@ -21,17 +21,18 @@ export async function GET() {
         <guid>${CONFIG.siteUrl}${post.route}</guid>
         <pubDate>${new Date(post.frontMatter.date).toUTCString()}</pubDate>
         ${post.frontMatter.tags ? `<category>${post.frontMatter.tags.map(t => t.trim()).join('</category><category>')}</category>` : ''}
-        ${post.frontMatter.author ? `<author>${post.frontMatter.author}</author>` : ''}
+        ${post.frontMatter.author ? `<dc:creator>${post.frontMatter.author}</dc:creator>` : ''}
     </item>`
     )
     .join('\n')
   const xml = `<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>${CONFIG.title}</title>
     <link>${CONFIG.siteUrl}</link>
     <description>${CONFIG.description}</description>
     <language>${CONFIG.lang}</language>
+    <atom:link href="${CONFIG.feedUrl}" rel="self" type="application/rss+xml"/>
 ${posts}
   </channel>
 </rss>`
