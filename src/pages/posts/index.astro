@@ -1,0 +1,32 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PostCard from "../../components/PostCard.astro";
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime(),
+);
+
+// Tag counts, sorted by frequency desc (mirrors the old posts page).
+const tagCounts: Record<string, number> = {};
+for (const post of posts) {
+  for (const tag of post.data.tags) {
+    tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+  }
+}
+const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
+---
+
+<BaseLayout title="Posts">
+  <h1>Posts</h1>
+  <div class="tag-cloud" data-pagefind-ignore="all">
+    {
+      sortedTags.map(([tag, count]) => (
+        <a class="tag" href={`/tags/${encodeURIComponent(tag)}`}>
+          {tag} ({count})
+        </a>
+      ))
+    }
+  </div>
+  {posts.map((post) => <PostCard post={post} />)}
+</BaseLayout>

@@ -1,0 +1,26 @@
+---
+
+---
+
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+  <span class="t-light">🌙</span>
+  <span class="t-dark">☀️</span>
+</button>
+
+<style>
+  html:not(.dark) .t-dark,
+  html.dark .t-light {
+    display: none;
+  }
+</style>
+
+<script is:inline>
+  document.getElementById("theme-toggle")?.addEventListener("click", () => {
+    const root = document.documentElement;
+    root.classList.toggle("dark");
+    localStorage.setItem(
+      "theme",
+      root.classList.contains("dark") ? "dark" : "light",
+    );
+  });
+</script>
