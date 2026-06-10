@@ -15,12 +15,18 @@
 </style>
 
 <script is:inline>
-  document.getElementById("theme-toggle")?.addEventListener("click", () => {
-    const root = document.documentElement;
-    root.classList.toggle("dark");
-    localStorage.setItem(
-      "theme",
-      root.classList.contains("dark") ? "dark" : "light",
-    );
-  });
+  // Delegated so it keeps working across view transitions (the button
+  // element is replaced on navigation, but document persists).
+  if (!window.__themeToggleBound) {
+    window.__themeToggleBound = true;
+    document.addEventListener("click", (e) => {
+      if (!e.target.closest("#theme-toggle")) return;
+      const root = document.documentElement;
+      root.classList.toggle("dark");
+      localStorage.setItem(
+        "theme",
+        root.classList.contains("dark") ? "dark" : "light",
+      );
+    });
+  }
 </script>
