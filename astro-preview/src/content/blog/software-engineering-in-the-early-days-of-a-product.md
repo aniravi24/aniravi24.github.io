@@ -1,0 +1,93 @@
+---
+title: Software engineering in the early days of a product
+author: Ani Ravi
+date: 2022-06-24
+tags: [Engineering, Technology]
+description: Some things I've learned about building software in the early days of something new.
+---
+
+I’ve been writing code more seriously for a few years now, initially starting off with projects built from the ground up, and more recently, working at a company where I work with a pre-existing codebase. Pretty much all of my software engineering experience comes from early-stage companies doing web development, so I don’t have the experience to comment on what happens when projects scale to millions or billions of users or niche projects that may have extreme performance concerns, etc.
+
+Ultimately, your goal in the early days is to figure out if you can make something people want (in a timely manner). Over time, you want to be able to maintain or create better experiences if you have determined that you are, in fact, solving a real problem. The following contains some themes I think anyone looking to build something from the ground up should think about from a software engineering lens. Many of them are intertwined with each other so you can expect overlap between the themes.
+
+[1. The tools you pick, particularly in the early days, matter way more than people give it credit for.](#tools)
+
+[2. The team you build will make or break your engineering capacity.](#team)
+
+[3. High-quality abstractions are the lifeblood of your codebase.](#abstractions)
+
+[4. You are not always liable for the debt you create - but someone eventually will be.](#debt)
+
+[5. Deleting code is a feature.](#deletion)
+
+## Tools
+
+I hear a lot of engineers say "programming languages are just tools", as though tools don't matter all that much and you can pick whatever you want to solve your problem. Not all tools are created equal. Different tools certainly come with different tradeoffs, and I've come to believe after observing at least a few startups now that engineers in the early days should take these tradeoffs more seriously (and consider them in the first place).
+
+The tools you choose in the early days will have an outsized impact on everything you do:
+
+1. The team you are able to hire
+2. The velocity with which you ship
+3. The quality/experience of your product
+4. The quality/maintainability of your code
+5. Scaling all of the above as the team grows
+
+You can make the case that there's actually no choice more important than the tools you choose in the early days - they will stick around longer than you think, potentially even longer than the early people you hire. Someone will pay the price for choosing or working with improper tools - the engineers, your users, or all of the above. On the other hand, great tools can give you incredible leverage - which is what good technology is supposed to do for humans in the first place right?
+
+The more of your team's standards you can enforce with tools, the better. For example, aim to have styling practices and code patterns enforced more by tools, so people don't have to think about it and can't easily make an excuse to avoid it. If you can do this early, it's nice to have because it's a lot more work to fix when you have many lines of code.
+
+Choose high-quality tools that allow you to work with more than one engineer. For example, choose a statically-typed language [^1]. You can move faster when the computer does so much of the work for you, and as a startup's product continues changing, you have an aid that can help you make changes with much less brainpower on the code itself. Shift your focus to actually building something your users want, and spend less time fighting with code. When your codebase is more than 10 lines and has multiple people working on it, you cannot sanely keep everything the code is doing in your head. Use a computer for what it's good at. More time can be spent writing tests to test actual workflows (i.e. the stuff that can't usually be checked by a type system).
+
+Don't skimp on using tools such as a production-ready, battle-tested database like PostgreSQL. Eventually the remainder of your non-technical team will look to understanding your data. If you don't take data modeling and storage seriously, it will be painful not only for the engineers, but for the entire business.
+
+Improper tool choices can cause a real burden on your team, and potentially leave your team with things that are difficult to change years later. Especially if you choose to build with a stack of tools (programming languages, etc.) that turn out to not be maintainable even with your existing team not having grown at all. It's _possible_ to make it by with improper tooling, but remember to ask yourself: should you?
+
+The tools you pick always have tradeoffs you have to weigh, and there are no silver bullets in software engineering. Just be more thoughtful about what tradeoffs matter to you. If you weigh your tradeoffs well, your team will be able to maintain decent velocity over longer periods of time, hire less, and ship higher quality code. If you choose poor tools, the burden on your team will increase drastically as the amount of code/complexity increases, your product quality will suffer (i.e. more bugs/errors), and your team will struggle working with your codebase over time.
+
+Ultimately you want your tools to help get you closer to delivering a high-quality experience for anyone using what you are building, and reduce your burden to deliver that experience.
+
+## Team
+
+Neck and neck with your tools is the team that you build. Your team will inform the tools you are able to work with - a more experienced team that's also passionate about their craft can probably use tools that other startups couldn't use, giving them an edge over the competition. When you're building a technology company, it should be easy to reason about why having a technological advantage can be a good thing. But not every team can make use of certain technological advantages, cause it may be too out of reach for your team.
+
+You want a team willing to learn new things, even if it takes effort. When you have a team that's not passionate about their craft especially in the early days of a startup, it will show. The last thing you want is an idea that was really poorly executed by engineers in such a way that users don't even want to use your product. Granted, it's important to understand engineering is a huge iceberg - there's a ton of work that goes on behind the scenes to make things work at all.
+
+## Abstractions
+
+Writing high-quality code from the outset has a fair bit of inertia, which is why it's easy for engineers to ignore it and hack together whatever works. There's a balance here - maybe a specific feature hacks something together to make it work, but the fundamental pieces of your codebase that are copy/pasted everywhere should be written with intention and real effort. While it's more work to write "primitives" (e.g. helper functions, wrapper around libraries you use, design patterns in your codebase, UI components etc.), it increases development velocity a lot when your primitives are good. It makes maintenance easier, and your applications will "just work" for longer with less effort from you. Solve only the actual problems you have in your codebase today, and as your needs evolve, your code can be changed (with a good type system helping you easily refactor)!
+
+Your ability to choose/build high-quality abstractions will evolve as you improve your craft, and more of your software touches the real world. Your abstractions will also improve over time - they will likely not be stagnant as your codebase and product needs evolve.
+
+One example of a paradigm that I value in codebases is functional programming. As I've spent more time writing code, I've realized functional programming allows for cleaner and more maintainable abstractions, and a lot of the ideas in functional programming have permeated into most mainstream languages/frameworks. On a small team that's ambitious and might have a large product to build, making it easier to reason about code while having less bugs/errors/crashes is generally a good thing [^2].
+
+If it takes you an extra week or two to build high-quality components for your team to work with, or reusable abstractions to build a high-quality API, do it. And if you're willing to learn, explore other patterns for writing and organizing code.
+
+You may be surprised how the things you introduce will infect your codebase and be everywhere before you know it, so try to at least be intentional about this. Being able to write code that can be read and made sense of (with high-quality types, function names, components, etc.) takes more effort, but it allows you to maintain velocity over time while not degrading in quality and introducing lots of regressions. I generally find that writing stuff with functional programming principles in mind means that it may take more brainpower and effort to write it the first time, but it becomes much easier to maintain and reason about longer-term.
+
+## Debt
+
+There's primarily three types of technical debt in the early days:
+
+1. The "debt" that's incurred because you've learned or found a new tool/library/language that's better for solving your problem than what you currently do.
+2. The debt that's incurred from knowing you wrote code in an ugly/hacky way the first time to move faster, but at the cost of requiring cleanup or needing to be completely redone long term.
+3. The debt that's incurred from the system not being designed in the optimal way to continue producing based on your users and company's needs, which you may only find out later.
+
+Paying down technical debt becomes more difficult over time for a myriad of reasons. It's harder to justify spending time on especially at a small company that's just trying to survive, and even harder to justify if the rest of your team doesn't have hands-on experience building a product. However, it is necessary, and your team should be willing to take strides toward paying some of this down over time. If you don't, it slows down the entire product development lifecycle and everything you ship will degrade in quality over time. It's like a house - it needs to be maintained over time, and sometimes renovated entirely.
+
+Most engineers also don't think as much as they should about how their debt creation doesn't only affect themselves in the current moment - it affects your future self, and the rest of your team too. Every amount of debt you add is a collective debt that the entire team has to deal with, even if you end up leaving the team. Be thoughtful about increasing the burden on your team. Little or no thought into this can lead to large swaths of your codebase needing to be rewritten or worked on by you, or someone else on your team that joins later. If you can avoid it, there's no need to put that burden on someone else.
+
+## Deletion
+
+As a product grows, it builds up cruft. Technical debt increases, and unused features take up space in your product and the code. The best code is no code. If building higher quality abstractions allows you to delete code, that is a great thing. If you can simplify your product and delete stuff, that is also a great thing. More code generally means more maintenance burden. Deleting code is definitely a feature. If you can find ways to delete code with little effort, be happy to do it. Even if it means something you spent hours, days, or weeks building should just be removed completely. Lines of code is a vanity metric. More code is not necessarily better (for the record, it's also not always a bad thing).
+
+## Final Thoughts
+
+When I first started building products, I used to get excited whenever people said they "hacked" something together. I thought it was a badge of honor to just get something working. I don't hold that belief anymore. While there is a time and place for hacking things together (especially when you're early and your only concern is building a product people actually want and get your business to go from "default dead" to "default alive"), there are some things that most people overlook in the early days and certain decisions that can be made that continue to affect your team longer than you think. If you're really building something people want and you've gotten the signals that you are, take what you're building more seriously - if people depend on your product, you can't only be focused on the 1000 foot view of the product - the manufacturing and assembly matter more than people give it credit for in the early days. Sometimes I feel as though people who build physical products probably understand this more intuitively than people who build software - cause when a physical product sucks, wow can you feel it. Everyone else at your company has different priorities - someone wants to get something solved for a customer, someone else wants to improve the business, etc. But you, the software engineer? Your job is to build a high-quality experience that people can use to solve their problem and to write code that other team members feel empowered working with to continuously deliver those high-quality experiences.
+
+---
+
+If you are interested in functional programming, it's up to you to decide how deep you want to encourage its patterns. You could use an esoteric language like Haskell if you're more experienced and want to go all in, or use something like TypeScript that everyone knows and use the libraries/linting tools necessary to enforce a functional style, even if it's not as ergonomic as in languages built from the ground up to be written in a functional style (Haskell, OCaml, F# etc.). You may decide you want to build your frontend UIs in React.js. A lot of React is heavily inspired by functional programming ideas.
+
+[^1]: It makes no sense in 2022 to be shipping buggy and hard to maintain products with dynamically-typed languages. We built computers to help us, not to ignore all of their capabilities so we can do a worse job at something a computer is good at. A good statically-typed language will give you the expressive power you need with most of your problems, and for practical reasons, the escape hatches you may need when you don't know how to make the types reconcile (until our tools get better). People often say that you can "move faster" with a dynamically-typed language - which if you've read any of my other posts, you know is a view that I vehemently disagree with.
+
+[^2]: The challenge with functional programming is it's not the first paradigm people learn (most people learn imperative/object-oriented programming with Java, JavaScript, or Python), and it's an entire system of programming that changes how you look at programming from almost the ground up. It's a big mindset shift for someone who has already been programming for a while. The upfront cost is higher, and in a world of developer tools that are supposed to be "easy to get started", it's a harder pill to swallow that not everything "easy" is great for serious production usage.
