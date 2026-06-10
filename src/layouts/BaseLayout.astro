@@ -1,0 +1,80 @@
+---
+import Nav from "../components/Nav.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description = "Ani Ravi's personal website" } = Astro.props;
+const fullTitle = title ? `${title} – Ani Ravi` : "Ani Ravi";
+
+// Pagefind only exists after `pagefind --site dist` runs, i.e. in the
+// production build. Skipping it in dev avoids 404s on the search assets.
+const isProd = import.meta.env.PROD;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="robots" content="index, follow" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="/feed.xml"
+    />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    {isProd && <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />}
+
+    <!-- Set theme before paint to avoid a flash -->
+    <script is:inline>
+      const stored = localStorage.getItem("theme");
+      const dark =
+        stored === "dark" ||
+        (!stored && matchMedia("(prefers-color-scheme: dark)").matches);
+      if (dark) document.documentElement.classList.add("dark");
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <Nav />
+      {isProd && <div id="search" class="search"></div>}
+      <main>
+        <slot />
+      </main>
+      <Footer />
+    </div>
+
+    {
+      isProd && (
+        <>
+          <script is:inline src="/pagefind/pagefind-ui.js" />
+          <script is:inline>
+            window.addEventListener("DOMContentLoaded", () => {
+              new PagefindUI({
+                element: "#search",
+                showSubResults: true,
+                showImages: false,
+              });
+            });
+          </script>
+        </>
+      )
+    }
+  </body>
+</html>

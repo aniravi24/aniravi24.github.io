@@ -1,0 +1,176 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/tags/[tag]",
+      "regex": "^/tags/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPtag": "nxtPtag"
+      },
+      "namedRegex": "^/tags/(?<nxtPtag>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/feed.xml",
+      "regex": "^/feed\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/feed\\.xml(?:/)?$"
+    },
+    {
+      "page": "/posts",
+      "regex": "^/posts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts(?:/)?$"
+    },
+    {
+      "page": "/posts/doing-great-product-engineering",
+      "regex": "^/posts/doing\\-great\\-product\\-engineering(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/doing\\-great\\-product\\-engineering(?:/)?$"
+    },
+    {
+      "page": "/posts/first-product-journey",
+      "regex": "^/posts/first\\-product\\-journey(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/first\\-product\\-journey(?:/)?$"
+    },
+    {
+      "page": "/posts/learning-graphql-through-postgraphile",
+      "regex": "^/posts/learning\\-graphql\\-through\\-postgraphile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/learning\\-graphql\\-through\\-postgraphile(?:/)?$"
+    },
+    {
+      "page": "/posts/long-term-vs-short-term-career-choices",
+      "regex": "^/posts/long\\-term\\-vs\\-short\\-term\\-career\\-choices(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/long\\-term\\-vs\\-short\\-term\\-career\\-choices(?:/)?$"
+    },
+    {
+      "page": "/posts/move-off-orms-in-typescript",
+      "regex": "^/posts/move\\-off\\-orms\\-in\\-typescript(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/move\\-off\\-orms\\-in\\-typescript(?:/)?$"
+    },
+    {
+      "page": "/posts/software-engineering-in-the-early-days-of-a-product",
+      "regex": "^/posts/software\\-engineering\\-in\\-the\\-early\\-days\\-of\\-a\\-product(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/software\\-engineering\\-in\\-the\\-early\\-days\\-of\\-a\\-product(?:/)?$"
+    },
+    {
+      "page": "/posts/special-about-haskell",
+      "regex": "^/posts/special\\-about\\-haskell(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/special\\-about\\-haskell(?:/)?$"
+    },
+    {
+      "page": "/posts/stand-out-engineering-team",
+      "regex": "^/posts/stand\\-out\\-engineering\\-team(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/stand\\-out\\-engineering\\-team(?:/)?$"
+    },
+    {
+      "page": "/posts/starting-a-company",
+      "regex": "^/posts/starting\\-a\\-company(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/starting\\-a\\-company(?:/)?$"
+    },
+    {
+      "page": "/posts/the-future-of-typescript",
+      "regex": "^/posts/the\\-future\\-of\\-typescript(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/the\\-future\\-of\\-typescript(?:/)?$"
+    },
+    {
+      "page": "/posts/the-incredible-irony-of-dynamically-typed-languages",
+      "regex": "^/posts/the\\-incredible\\-irony\\-of\\-dynamically\\-typed\\-languages(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/the\\-incredible\\-irony\\-of\\-dynamically\\-typed\\-languages(?:/)?$"
+    },
+    {
+      "page": "/posts/toy-project-not-ready-for-production",
+      "regex": "^/posts/toy\\-project\\-not\\-ready\\-for\\-production(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/toy\\-project\\-not\\-ready\\-for\\-production(?:/)?$"
+    },
+    {
+      "page": "/posts/understanding-users-is-actually-difficult",
+      "regex": "^/posts/understanding\\-users\\-is\\-actually\\-difficult(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/understanding\\-users\\-is\\-actually\\-difficult(?:/)?$"
+    },
+    {
+      "page": "/posts/using-elixir-in-production-at-a-small-startup",
+      "regex": "^/posts/using\\-elixir\\-in\\-production\\-at\\-a\\-small\\-startup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/using\\-elixir\\-in\\-production\\-at\\-a\\-small\\-startup(?:/)?$"
+    },
+    {
+      "page": "/posts/why-i-bought-a-framework-laptop",
+      "regex": "^/posts/why\\-i\\-bought\\-a\\-framework\\-laptop(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/why\\-i\\-bought\\-a\\-framework\\-laptop(?:/)?$"
+    },
+    {
+      "page": "/posts/working-on-things-that-are-fun-but-dont-matter",
+      "regex": "^/posts/working\\-on\\-things\\-that\\-are\\-fun\\-but\\-dont\\-matter(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/working\\-on\\-things\\-that\\-are\\-fun\\-but\\-dont\\-matter(?:/)?$"
+    },
+    {
+      "page": "/posts/your-database-is-all-your-are",
+      "regex": "^/posts/your\\-database\\-is\\-all\\-your\\-are(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/posts/your\\-database\\-is\\-all\\-your\\-are(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
