@@ -11,19 +11,26 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { Content } = await render(post);
+const { Content, remarkPluginFrontmatter } = await render(post);
 const formatted = post.data.date.toLocaleDateString("en-US", {
   day: "2-digit",
   year: "numeric",
   month: "short",
 });
+const readingTime = remarkPluginFrontmatter.minutesRead;
 ---
 
-<BaseLayout title={post.data.title} description={post.data.description}>
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description}
+  image={`/og/${post.id}.png`}
+  type="article"
+>
   <article data-pagefind-body>
     <h1>{post.data.title}</h1>
     <p class="meta">
       <time datetime={post.data.date.toISOString()}>{formatted}</time>
+      {readingTime && <> · {readingTime}</>}
       {post.data.author && <> · {post.data.author}</>}
       {
         post.data.tags.length > 0 && (

@@ -1,4 +1,5 @@
 ---
+import { ClientRouter } from "astro:transitions";
 import Nav from "../components/Nav.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/global.css";
@@ -6,10 +7,20 @@ import "../styles/global.css";
 interface Props {
   title?: string;
   description?: string;
+  image?: string; // OG image path, relative to the site root
+  type?: "website" | "article";
 }
 
-const { title, description = "Ani Ravi's personal website" } = Astro.props;
+const {
+  title,
+  description = "Ani Ravi's personal website",
+  image = "/og/default.png",
+  type = "website",
+} = Astro.props;
+
 const fullTitle = title ? `${title} – Ani Ravi` : "Ani Ravi";
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL(image, Astro.site);
 
 // Pagefind only exists after `pagefind --site dist` runs, i.e. in the
 // production build. Skipping it in dev avoids 404s on the search assets.
@@ -25,6 +36,19 @@ const isProd = import.meta.env.PROD;
     <meta name="robots" content="index, follow" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Open Graph / Twitter social previews -->
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:site_name" content="Ani Ravi" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
@@ -41,13 +65,19 @@ const isProd = import.meta.env.PROD;
     <link rel="sitemap" href="/sitemap-index.xml" />
     {isProd && <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />}
 
-    <!-- Set theme before paint to avoid a flash -->
+    <ClientRouter />
+
+    <!-- Set theme before paint, and re-apply after each view transition -->
     <script is:inline>
-      const stored = localStorage.getItem("theme");
-      const dark =
-        stored === "dark" ||
-        (!stored && matchMedia("(prefers-color-scheme: dark)").matches);
-      if (dark) document.documentElement.classList.add("dark");
+      const setTheme = () => {
+        const stored = localStorage.getItem("theme");
+        const dark =
+          stored === "dark" ||
+          (!stored && matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.classList.toggle("dark", dark);
+      };
+      setTheme();
+      document.addEventListener("astro:after-swap", setTheme);
     </script>
   </head>
   <body>
@@ -65,13 +95,19 @@ const isProd = import.meta.env.PROD;
         <>
           <script is:inline src="/pagefind/pagefind-ui.js" />
           <script is:inline>
-            window.addEventListener("DOMContentLoaded", () => {
-              new PagefindUI({
-                element: "#search",
-                showSubResults: true,
-                showImages: false,
-              });
-            });
+            const initSearch = () => {
+              const el = document.querySelector("#search");
+              if (el && window.PagefindUI && !el.dataset.ready) {
+                el.dataset.ready = "1";
+                new PagefindUI({
+                  element: "#search",
+                  showSubResults: true,
+                  showImages: false,
+                });
+              }
+            };
+            // Run on first load and after each view transition.
+            document.addEventListener("astro:page-load", initSearch);
           </script>
         </>
       )
