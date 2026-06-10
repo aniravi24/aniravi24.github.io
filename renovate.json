@@ -9,9 +9,6 @@
     "schedule:weekly",
     ":pinOnlyDevDependencies"
   ],
-  "major": {
-    "draftPR": true
-  },
   "packageRules": [
     {
       "groupName": "all patches",
