@@ -4,11 +4,7 @@
   "automergeType": "pr",
   "dependencyDashboard": true,
   "dependencyDashboardTitle": "Renovate Dependency Dashboard",
-  "extends": [
-    "config:recommended",
-    "schedule:weekly",
-    ":pinOnlyDevDependencies"
-  ],
+  "extends": ["config:recommended", "schedule:weekly", ":pinOnlyDevDependencies"],
   "packageRules": [
     {
       "groupName": "all patches",
