@@ -23,5 +23,5 @@
     "oxlint": "1.69.0",
     "pagefind": "1.5.2"
   },
-  "packageManager": "pnpm@11.5.2"
+  "packageManager": "pnpm@11.9.0"
 }
