@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "oxfmt": "0.64.0",
-    "oxlint": "1.78.0",
+    "oxlint": "1.79.0",
     "pagefind": "1.5.2"
   },
   "packageManager": "pnpm@11.10.0"
