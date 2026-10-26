@@ -63,7 +63,11 @@ const isProd = import.meta.env.PROD;
       href="/feed.xml"
     />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    {isProd && <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />}
+    {
+      isProd && (
+        <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet" />
+      )
+    }
 
     <ClientRouter />
 
@@ -83,7 +87,14 @@ const isProd = import.meta.env.PROD;
   <body>
     <div class="container">
       <Nav />
-      {isProd && <div id="search" class="search"></div>}
+      {
+        isProd && (
+          <div class="search">
+            <pagefind-modal-trigger></pagefind-modal-trigger>
+            <pagefind-modal></pagefind-modal>
+          </div>
+        )
+      }
       <main>
         <slot />
       </main>
@@ -93,21 +104,19 @@ const isProd = import.meta.env.PROD;
     {
       isProd && (
         <>
-          <script is:inline src="/pagefind/pagefind-ui.js" />
+          <script
+            is:inline
+            type="module"
+            src="/pagefind/pagefind-component-ui.js"
+          ></script>
           <script is:inline>
-            const initSearch = () => {
-              const el = document.querySelector("#search");
-              if (el && window.PagefindUI && !el.dataset.ready) {
-                el.dataset.ready = "1";
-                new PagefindUI({
-                  element: "#search",
-                  showSubResults: true,
-                  showImages: false,
-                });
-              }
-            };
-            // Run on first load and after each view transition.
-            document.addEventListener("astro:page-load", initSearch);
+            document.addEventListener("astro:before-swap", () => {
+              document.querySelector("pagefind-modal")?.close?.();
+              // Pagefind retains component references until its instance is removed.
+              window.PagefindComponents?.getInstanceManager().removeInstance(
+                "default",
+              );
+            });
           </script>
         </>
       )

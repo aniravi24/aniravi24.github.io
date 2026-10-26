@@ -175,10 +175,15 @@ article blockquote {
   margin: 1.25rem 0 0.5rem;
 }
 :root {
-  --pagefind-ui-scale: 0.85;
-  --pagefind-ui-primary: var(--fg);
-  --pagefind-ui-text: var(--fg);
-  --pagefind-ui-background: var(--bg);
-  --pagefind-ui-border: var(--border);
-  --pagefind-ui-tag: var(--tag-bg);
+  --pf-text: var(--fg);
+  --pf-text-secondary: var(--muted);
+  --pf-text-muted: var(--muted);
+  --pf-background: var(--bg);
+  --pf-border: var(--border);
+  --pf-border-focus: var(--link);
+  --pf-hover: var(--tag-bg);
+  --pf-mark: var(--fg);
+  --pf-skeleton: var(--tag-bg);
+  --pf-skeleton-shine: var(--code-bg);
+  --pf-outline-focus: var(--link);
 }
