@@ -7,11 +7,12 @@
     "dev": "bun --bun astro dev",
     "build": "bun --bun astro build && bun --bun pagefind --site dist",
     "preview": "bun --bun astro preview",
-    "check": "bun check",
+    "check": "bun --bun astro sync && bun check",
     "format": "bun fmt",
     "format:check": "bun fmt --check"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.4",
     "@astrojs/rss": "4.0.19",
     "@astrojs/sitemap": "3.7.4",
     "astro": "7.4.2",

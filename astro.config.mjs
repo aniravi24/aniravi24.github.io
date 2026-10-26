@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
+import { unified } from "@astrojs/markdown-remark";
 import { remarkReadingTime } from "./src/lib/remark-reading-time.mjs";
 
 // https://astro.build/config
@@ -11,7 +12,7 @@ export default defineConfig({
     defaultStrategy: "viewport",
   },
   markdown: {
-    remarkPlugins: [remarkReadingTime],
+    processor: unified({ remarkPlugins: [remarkReadingTime] }),
     shikiConfig: { theme: "github-dark" },
   },
 });
