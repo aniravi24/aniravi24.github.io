@@ -4,9 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build && pagefind --site dist",
-    "preview": "astro preview",
+    "dev": "bun --bun astro dev",
+    "build": "bun --bun astro build && bun --bun pagefind --site dist",
+    "preview": "bun --bun astro preview",
+    "check": "bun check",
     "format": "bun fmt",
     "format:check": "bun fmt --check"
   },
@@ -19,6 +20,5 @@
   },
   "devDependencies": {
     "pagefind": "1.5.2"
-  },
-  "packageManager": "pnpm@11.10.0"
+  }
 }

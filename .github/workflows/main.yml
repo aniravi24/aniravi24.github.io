@@ -7,9 +7,6 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-env:
-  HUSKY: 0
-
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -18,20 +15,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v6
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v6
-
-      - name: Setup Node 18
-        uses: actions/setup-node@v6
-        with:
-          node-version: 24
-          cache: "pnpm"
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Install deps
-        run: pnpm install
+        run: bun install --frozen-lockfile
 
       - name: Generate blog
-        run: pnpm build
+        run: bun run build
 
       - name: Deploy blog to gh-pages
         uses: JamesIves/github-pages-deploy-action@v4
