@@ -4,13 +4,19 @@
   "automergeType": "pr",
   "dependencyDashboard": true,
   "dependencyDashboardTitle": "Renovate Dependency Dashboard",
-  "extends": ["config:recommended", "schedule:weekly", ":pinOnlyDevDependencies"],
+  "extends": [
+    "config:recommended",
+    "schedule:weekly",
+    ":pinOnlyDevDependencies"
+  ],
   "packageRules": [
     {
-      "groupName": "all patches",
-      "groupSlug": "all-patch",
-      "matchUpdateTypes": ["patch"],
-      "matchPackageNames": ["*"]
+      "groupName": "all dependencies",
+      "groupSlug": "all-dependencies",
+      "matchPackageNames": ["*"],
+      "separateMajorMinor": false,
+      "separateMinorPatch": false,
+      "automerge": true
     }
   ],
   "platformAutomerge": true

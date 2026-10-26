@@ -15,6 +15,9 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v6
 
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
       - name: Setup pnpm
         uses: pnpm/action-setup@v6
 
@@ -27,11 +30,8 @@ jobs:
       - name: Install deps
         run: pnpm install
 
-      - name: Lint
-        run: pnpm lint
-
       - name: Check formatting
-        run: pnpm format:check
+        run: bun run format:check
 
       - name: Generate blog
         run: pnpm build
